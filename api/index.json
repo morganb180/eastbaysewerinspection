@@ -1,0 +1,121 @@
+{
+  "$comment": "Agent-facing feeds for East Bay Sewer Inspection",
+  "site": "eastbay",
+  "name": "East Bay Sewer Inspection",
+  "url": "https://eastbaysewerinspection.com/",
+  "description": "Public listing data for sewer lateral contractors (none listed yet).",
+  "generated": "2026-10-29",
+  "last_updated": null,
+  "data_source": {
+    "description": "Official licence/certification records as published on the site; each firm record has its own source URL and retrieval date.",
+    "sources": []
+  },
+  "attribution": "Listing data from East Bay Sewer Inspection (https://eastbaysewerinspection.com/), built from public licence records. Not an endorsement.",
+  "counts": {
+    "firms": 0,
+    "counties": 0,
+    "cities": 9,
+    "states": 0
+  },
+  "services": [],
+  "fields_excluded": "Phone, email and street address are not included; see each firm_url.",
+  "endpoints": {
+    "firms": "https://eastbaysewerinspection.com/api/firms.json",
+    "county": null,
+    "city": "https://eastbaysewerinspection.com/api/city/{slug}.json",
+    "state": null,
+    "search": "https://leads.radonroster.com/api/firms?site=eastbay",
+    "quote": null,
+    "mcp": "https://leads.radonroster.com/mcp?site=eastbay",
+    "openapi": "https://eastbaysewerinspection.com/openapi.json",
+    "api_catalog": "https://eastbaysewerinspection.com/.well-known/api-catalog"
+  },
+  "search_by_zip": false,
+  "quote_requests": false,
+  "states": [],
+  "counties": [],
+  "cities": [
+    {
+      "slug": "alameda",
+      "name": "Sewer lateral certificate when selling in Alameda",
+      "state": "CA",
+      "page": "https://eastbaysewerinspection.com/city/alameda/",
+      "feed": "https://eastbaysewerinspection.com/api/city/alameda.json",
+      "count": 0,
+      "local_count": 0
+    },
+    {
+      "slug": "albany",
+      "name": "Sewer lateral certificate when selling in Albany",
+      "state": "CA",
+      "page": "https://eastbaysewerinspection.com/city/albany/",
+      "feed": "https://eastbaysewerinspection.com/api/city/albany.json",
+      "count": 0,
+      "local_count": 0
+    },
+    {
+      "slug": "berkeley",
+      "name": "Berkeley private sewer lateral requirements",
+      "state": "CA",
+      "page": "https://eastbaysewerinspection.com/city/berkeley/",
+      "feed": "https://eastbaysewerinspection.com/api/city/berkeley.json",
+      "count": 0,
+      "local_count": 0
+    },
+    {
+      "slug": "el-cerrito",
+      "name": "Sewer lateral certificate when selling in El Cerrito",
+      "state": "CA",
+      "page": "https://eastbaysewerinspection.com/city/el-cerrito/",
+      "feed": "https://eastbaysewerinspection.com/api/city/el-cerrito.json",
+      "count": 0,
+      "local_count": 0
+    },
+    {
+      "slug": "emeryville",
+      "name": "Sewer lateral certificate when selling in Emeryville",
+      "state": "CA",
+      "page": "https://eastbaysewerinspection.com/city/emeryville/",
+      "feed": "https://eastbaysewerinspection.com/api/city/emeryville.json",
+      "count": 0,
+      "local_count": 0
+    },
+    {
+      "slug": "kensington",
+      "name": "Sewer lateral certificate when selling in Kensington",
+      "state": "CA",
+      "page": "https://eastbaysewerinspection.com/city/kensington/",
+      "feed": "https://eastbaysewerinspection.com/api/city/kensington.json",
+      "count": 0,
+      "local_count": 0
+    },
+    {
+      "slug": "oakland",
+      "name": "Sewer lateral certificate when selling in Oakland",
+      "state": "CA",
+      "page": "https://eastbaysewerinspection.com/city/oakland/",
+      "feed": "https://eastbaysewerinspection.com/api/city/oakland.json",
+      "count": 0,
+      "local_count": 0
+    },
+    {
+      "slug": "piedmont",
+      "name": "Sewer lateral certificate when selling in Piedmont",
+      "state": "CA",
+      "page": "https://eastbaysewerinspection.com/city/piedmont/",
+      "feed": "https://eastbaysewerinspection.com/api/city/piedmont.json",
+      "count": 0,
+      "local_count": 0
+    },
+    {
+      "slug": "richmond-annex",
+      "name": "Sewer lateral certificate when selling in Richmond Annex",
+      "state": "CA",
+      "page": "https://eastbaysewerinspection.com/city/richmond-annex/",
+      "feed": "https://eastbaysewerinspection.com/api/city/richmond-annex.json",
+      "count": 0,
+      "local_count": 0
+    }
+  ],
+  "quote_note": "This directory does not take agent quote requests yet; use firm_url to contact firms."
+}

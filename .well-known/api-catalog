@@ -1,0 +1,75 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://leads.radonroster.com/api/firms?site=eastbay",
+      "service-desc": [
+        {
+          "href": "https://eastbaysewerinspection.com/openapi.json",
+          "type": "application/openapi+json"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://eastbaysewerinspection.com/.well-known/agent-skills/east-bay-sewer-inspection-find-firms/SKILL.md",
+          "type": "text/markdown"
+        },
+        {
+          "href": "https://eastbaysewerinspection.com/llms.txt",
+          "type": "text/plain"
+        }
+      ],
+      "status": [
+        {
+          "href": "https://leads.radonroster.com/api/health?site=eastbay",
+          "type": "application/json"
+        }
+      ]
+    },
+    {
+      "anchor": "https://eastbaysewerinspection.com/api/",
+      "service-desc": [
+        {
+          "href": "https://eastbaysewerinspection.com/openapi.json",
+          "type": "application/openapi+json"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://eastbaysewerinspection.com/.well-known/agent-skills/east-bay-sewer-inspection-find-firms/SKILL.md",
+          "type": "text/markdown"
+        }
+      ],
+      "item": [
+        {
+          "href": "https://eastbaysewerinspection.com/api/index.json",
+          "type": "application/json"
+        },
+        {
+          "href": "https://eastbaysewerinspection.com/api/firms.json",
+          "type": "application/json"
+        }
+      ]
+    },
+    {
+      "anchor": "https://leads.radonroster.com/mcp?site=eastbay",
+      "service-desc": [
+        {
+          "href": "https://eastbaysewerinspection.com/.well-known/mcp.json",
+          "type": "application/json"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://eastbaysewerinspection.com/.well-known/agent-skills/east-bay-sewer-inspection-find-firms/SKILL.md",
+          "type": "text/markdown"
+        }
+      ],
+      "status": [
+        {
+          "href": "https://leads.radonroster.com/api/health?site=eastbay",
+          "type": "application/json"
+        }
+      ]
+    }
+  ]
+}

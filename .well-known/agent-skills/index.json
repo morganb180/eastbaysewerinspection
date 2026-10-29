@@ -1,0 +1,12 @@
+{
+  "$schema": "https://schemas.agentskills.io/discovery/0.2.0/schema.json",
+  "skills": [
+    {
+      "name": "east-bay-sewer-inspection-find-firms",
+      "type": "skill-md",
+      "description": "Find sewer lateral contractors (none listed yet) on East Bay Sewer Inspection by city/town or county, with credentials and links to each listing.",
+      "url": "https://eastbaysewerinspection.com/.well-known/agent-skills/east-bay-sewer-inspection-find-firms/SKILL.md",
+      "digest": "sha256:64c0650cac8fdbe8ac70adff86dce4d4faa1f130a227d8bf60acedbb950a828b"
+    }
+  ]
+}

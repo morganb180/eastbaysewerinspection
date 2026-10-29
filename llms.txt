@@ -18,6 +18,14 @@ It is for East Bay home sellers, buyers, agents and escrow officers. This is a g
 - [Contact](https://eastbaysewerinspection.com/contact/)
 - [Privacy Policy](https://eastbaysewerinspection.com/privacy/)
 
+## Agent API
+- [API catalog](https://eastbaysewerinspection.com/.well-known/api-catalog): RFC 9727 linkset
+- [OpenAPI spec](https://eastbaysewerinspection.com/openapi.json): search API
+- [Feed index](https://eastbaysewerinspection.com/api/index.json): data sources, last-updated date, county/city feeds
+- [All firms (JSON)](https://eastbaysewerinspection.com/api/firms.json)
+- [MCP server card](https://eastbaysewerinspection.com/.well-known/mcp.json): remote MCP at https://leads.radonroster.com/mcp?site=eastbay
+- [Agent skills](https://eastbaysewerinspection.com/.well-known/agent-skills/index.json)
+
 ## Optional
 - [llms-full.txt](https://eastbaysewerinspection.com/llms-full.txt): every page on the site
 - [Sitemap](https://eastbaysewerinspection.com/sitemap.xml)

@@ -1,0 +1,554 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "East Bay Sewer Inspection directory API",
+    "version": "1.0.0",
+    "summary": "Read-only search of sewer lateral contractors (none listed yet).",
+    "description": "Public listing data from East Bay Sewer Inspection (https://eastbaysewerinspection.com). Built only from what the site already publishes; no phone numbers, emails or street addresses (see each firm_url). A listing is not an endorsement.",
+    "contact": {
+      "name": "East Bay Sewer Inspection",
+      "url": "https://eastbaysewerinspection.com/"
+    }
+  },
+  "servers": [
+    {
+      "url": "https://leads.radonroster.com",
+      "description": "Agent API (Cloudflare Worker)"
+    }
+  ],
+  "externalDocs": {
+    "url": "https://eastbaysewerinspection.com/llms.txt"
+  },
+  "paths": {
+    "/api/firms": {
+      "get": {
+        "operationId": "searchFirms",
+        "summary": "Search East Bay Sewer Inspection firms by ZIP, city or county",
+        "description": "Requires one of zip, city or county. ZIP search is not available for this site (no ZIP data); use city or county. CORS is open (Access-Control-Allow-Origin: *).",
+        "parameters": [
+          {
+            "name": "site",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "const": "eastbay"
+            }
+          },
+          {
+            "name": "zip",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "pattern": "^\\d{5}$"
+            }
+          },
+          {
+            "name": "city",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "county",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "state",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "CA"
+              ]
+            }
+          },
+          {
+            "name": "service",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "none"
+              ]
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 50,
+              "default": 10
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Matching firms",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SearchResult"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "429": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/index.json": {
+      "servers": [
+        {
+          "url": "https://eastbaysewerinspection.com",
+          "description": "Static feeds on the site (GitHub Pages)"
+        }
+      ],
+      "get": {
+        "operationId": "getIndex",
+        "summary": "Feed index: data sources, last-updated date, counties, cities, services",
+        "responses": {
+          "200": {
+            "description": "Index",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/firms.json": {
+      "servers": [
+        {
+          "url": "https://eastbaysewerinspection.com",
+          "description": "Static feeds on the site (GitHub Pages)"
+        }
+      ],
+      "get": {
+        "operationId": "listAllFirms",
+        "summary": "All 0 listed firms",
+        "responses": {
+          "200": {
+            "description": "All firms",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "firms": {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/components/schemas/Firm"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/health": {
+      "get": {
+        "operationId": "health",
+        "summary": "API status",
+        "parameters": [
+          {
+            "name": "site",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "const": "eastbay"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/mcp": {
+      "post": {
+        "operationId": "mcp",
+        "summary": "Remote MCP server (streamable HTTP, JSON-RPC 2.0)",
+        "description": "Model Context Protocol endpoint. Use `https://leads.radonroster.com/mcp?site=eastbay`. Tools: search_firms, get_firm, list_areas.",
+        "parameters": [
+          {
+            "name": "site",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "const": "eastbay"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "JSON-RPC response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "202": {
+            "description": "Notification accepted"
+          }
+        }
+      }
+    },
+    "/api/city/{slug}.json": {
+      "servers": [
+        {
+          "url": "https://eastbaysewerinspection.com",
+          "description": "Static feeds on the site (GitHub Pages)"
+        }
+      ],
+      "get": {
+        "operationId": "getCity",
+        "summary": "Firms listed on one city/town page (slugs in /api/index.json)",
+        "parameters": [
+          {
+            "name": "slug",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Area feed",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AreaFeed"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Unknown slug"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Credential": {
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": "string"
+          },
+          "number": {
+            "type": "string"
+          },
+          "expires": {
+            "type": "string",
+            "format": "date"
+          }
+        }
+      },
+      "Firm": {
+        "type": "object",
+        "required": [
+          "id",
+          "name"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "company": {
+            "type": "string",
+            "description": "Business name shown under an individual evaluator's name."
+          },
+          "listing_type": {
+            "type": "string"
+          },
+          "certification": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Badge text shown on the listing."
+          },
+          "issuing_agency": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "credentials": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Credential"
+            }
+          },
+          "services": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "none"
+              ]
+            }
+          },
+          "service_labels": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "city": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "state": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "listed_state": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "county": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "slug": {
+                "type": "string"
+              }
+            }
+          },
+          "counties": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "County slugs whose page lists this firm as local."
+          },
+          "cities": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "City/town slugs whose page lists this firm as local."
+          },
+          "firm_url": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "uri",
+            "description": "Public listing page (has phone/contact details where published)."
+          },
+          "quote_url": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "uri",
+            "description": "Human quote form for this firm, or null."
+          },
+          "google_rating": {
+            "type": "object",
+            "properties": {
+              "rating": {
+                "type": "number"
+              },
+              "count": {
+                "type": "integer"
+              },
+              "as_of": {
+                "type": "string"
+              }
+            }
+          },
+          "source": {
+            "type": "object",
+            "properties": {
+              "urls": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "format": "uri"
+                }
+              },
+              "retrieved": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "format": "date"
+              }
+            }
+          },
+          "match": {
+            "type": "string",
+            "enum": [
+              "local",
+              "nearby"
+            ],
+            "description": "Area feeds/search by area: listed in the area's own section or in its nearby section."
+          },
+          "distance_km": {
+            "type": "number",
+            "description": "ZIP search only: approximate distance from the ZIP centroid."
+          }
+        }
+      },
+      "SearchResult": {
+        "type": "object",
+        "properties": {
+          "site": {
+            "type": "string"
+          },
+          "query": {
+            "type": "object"
+          },
+          "count": {
+            "type": "integer"
+          },
+          "total": {
+            "type": "integer"
+          },
+          "area": {
+            "type": "object"
+          },
+          "note": {
+            "type": "string"
+          },
+          "firms": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Firm"
+            }
+          },
+          "attribution": {
+            "type": "string"
+          }
+        }
+      },
+      "AreaFeed": {
+        "type": "object",
+        "properties": {
+          "site": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string"
+          },
+          "slug": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "count": {
+            "type": "integer"
+          },
+          "firms": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Firm"
+            }
+          }
+        }
+      },
+      "Error": {
+        "type": "object",
+        "properties": {
+          "ok": {
+            "type": "boolean"
+          },
+          "error": {
+            "type": "string"
+          },
+          "message": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}
