@@ -1,0 +1,50 @@
+# East Bay Sewer Inspection
+
+> East Bay Sewer Inspection explains the EBMUD Regional Private Sewer Lateral (PSL) ordinance: when a Compliance Certificate is needed to close escrow in Oakland, Alameda, Albany, Emeryville, Piedmont and the Stege Sanitary District, how the verification test works, and Berkeley's separate program.
+
+It is for East Bay home sellers, buyers, agents and escrow officers. This is a guide site: it has no contractor listings yet. Contractors can use the list-your-business page. Every page has a Markdown version: replace the trailing slash with `.md` (home: https://eastbaysewerinspection.com/index.md).
+
+## Guides
+- [EBMUD Sewer Lateral Certificate: Selling an East Bay Home](https://eastbaysewerinspection.com/ebmud-psl-program/): how the certificate works
+- [EBMUD Sewer Lateral Program: Participating Cities](https://eastbaysewerinspection.com/cities/): participating cities
+- [East Bay Sewer Lateral Certificate Fees & Replacement Costs](https://eastbaysewerinspection.com/sewer-lateral-cost/): EBMUD fees and cost factors
+- [Finding a Sewer Lateral Contractor in the East Bay](https://eastbaysewerinspection.com/contractors/): no listings yet; how to vet
+
+## About
+- [About East Bay Sewer Inspection](https://eastbaysewerinspection.com/about/)
+- [About Our Data](https://eastbaysewerinspection.com/about-our-data/)
+- [How We Verify Listings](https://eastbaysewerinspection.com/how-we-verify/): verification steps and dates
+- [List, Claim, Correct or Remove a Listing](https://eastbaysewerinspection.com/list-your-business/): contractors: request a listing
+- [Contact](https://eastbaysewerinspection.com/contact/)
+- [Privacy Policy](https://eastbaysewerinspection.com/privacy/)
+
+## Optional
+- [llms-full.txt](https://eastbaysewerinspection.com/llms-full.txt): every page on the site
+- [Sitemap](https://eastbaysewerinspection.com/sitemap.xml)
+
+## Guides
+- [EBMUD Sewer Lateral Certificate: Selling an East Bay Home](https://eastbaysewerinspection.com/ebmud-psl-program/)
+- [EBMUD Sewer Lateral Program: Participating Cities](https://eastbaysewerinspection.com/cities/)
+- [East Bay Sewer Lateral Certificate Fees & Replacement Costs](https://eastbaysewerinspection.com/sewer-lateral-cost/)
+- [Finding a Sewer Lateral Contractor in the East Bay](https://eastbaysewerinspection.com/contractors/)
+
+## City pages
+- [Sewer Lateral Certificate in Oakland: Selling a Home](https://eastbaysewerinspection.com/city/oakland/)
+- [Sewer Lateral Certificate in Alameda: Selling a Home](https://eastbaysewerinspection.com/city/alameda/)
+- [Sewer Lateral Certificate in Albany: Selling a Home](https://eastbaysewerinspection.com/city/albany/)
+- [Sewer Lateral Certificate in Emeryville: Selling a Home](https://eastbaysewerinspection.com/city/emeryville/)
+- [Sewer Lateral Certificate in Piedmont: Selling a Home](https://eastbaysewerinspection.com/city/piedmont/)
+- [Sewer Lateral Certificate in El Cerrito: Selling a Home](https://eastbaysewerinspection.com/city/el-cerrito/)
+- [Sewer Lateral Certificate in Kensington: Selling a Home](https://eastbaysewerinspection.com/city/kensington/)
+- [Sewer Lateral Certificate in Richmond Annex: Selling a Home](https://eastbaysewerinspection.com/city/richmond-annex/)
+- [Berkeley Sewer Lateral Certificate at Sale (Separate Program)](https://eastbaysewerinspection.com/city/berkeley/)
+
+## Pages
+- [East Bay Sewer Inspection: EBMUD Sewer Lateral Certificate for Home Sales](https://eastbaysewerinspection.com/)
+- [About Our Data](https://eastbaysewerinspection.com/about-our-data/)
+- [About East Bay Sewer Inspection](https://eastbaysewerinspection.com/about/)
+- [Contact](https://eastbaysewerinspection.com/contact/)
+- [Privacy Policy](https://eastbaysewerinspection.com/privacy/)
+- [How We Make Money](https://eastbaysewerinspection.com/how-we-make-money/)
+- [List, Claim, Correct or Remove a Listing](https://eastbaysewerinspection.com/list-your-business/)
+- [How We Verify Listings](https://eastbaysewerinspection.com/how-we-verify/)
