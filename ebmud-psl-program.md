@@ -1,5 +1,5 @@
 ---
-title: "EBMUD Sewer Lateral Certificate: Selling an East Bay Home | East Bay Sewer Inspection"
+title: "EBMUD Sewer Lateral Certificate: Selling an East Bay Home"
 description: "How the EBMUD Regional Private Sewer Lateral (PSL) ordinance works at sale: Compliance Certificate, verification test, time extensions, exemptions."
 canonical: https://eastbaysewerinspection.com/ebmud-psl-program/
 ---
@@ -15,7 +15,9 @@ In 2009 the U.S. EPA and the Regional Water Quality Control Board ordered EBMUD,
 * **HOAs/condos** had to certify laterals they maintain by July 12, 2021. Buyers should ask the HOA for its Statement of Responsibility.
 * **Appeals** within 30 calendar days.
 
-## Step by step
+## How do I get an EBMUD sewer lateral Compliance Certificate?
+
+Check the property's status with EBMUD, have a licensed contractor inspect and repair or replace the lateral (with city permits if required), then pass the EBMUD-witnessed verification test and download the Compliance Certificate.
 
 1. Check your property's status with EBMUD's property search (via [ebmud.com/psl](https://www.ebmud.com/wastewater/private-sewer-laterals)).
 2. Hire a licensed contractor to inspect (usually CCTV) and repair or replace the lateral. Get city permits if required.
@@ -42,6 +44,6 @@ No. EBMUD issues the certificate only after the lateral passes a verification te
 
 Buy a Time Extension Certificate. It allows 180 days and requires a $4,500 refundable deposit plus a fee.
 
-## Rules by city
+## Which East Bay cities require a sewer lateral certificate?
 
 [All cities](https://eastbaysewerinspection.com/cities/) · [Oakland](https://eastbaysewerinspection.com/city/oakland/) · [Alameda](https://eastbaysewerinspection.com/city/alameda/) · [Albany](https://eastbaysewerinspection.com/city/albany/) · [Emeryville](https://eastbaysewerinspection.com/city/emeryville/) · [Piedmont](https://eastbaysewerinspection.com/city/piedmont/) · [El Cerrito](https://eastbaysewerinspection.com/city/el-cerrito/) · [Berkeley (separate program)](https://eastbaysewerinspection.com/city/berkeley/)

@@ -1,12 +1,12 @@
 ---
 title: "Contact | East Bay Sewer Inspection"
-description: "How to reach us about listings, corrections or questions."
+description: "Contact East Bay Sewer Inspection about the EBMUD sewer lateral guide, a correction or a listing. We are an independent guide, not EBMUD or a contractor."
 canonical: https://eastbaysewerinspection.com/contact/
 ---
 
 # Contact East Bay Sewer Inspection
 
-East Bay Sewer Inspection is a small independent directory and guide. We read every message. We aren't a contractor, inspector or government agency, and we can't do sewer lateral work work ourselves.
+East Bay Sewer Inspection is a small independent directory and guide. We read every message. We aren't a contractor, inspector or government agency, and we can't do sewer lateral work ourselves.
 
 ## Email
 

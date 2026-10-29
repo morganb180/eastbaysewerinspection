@@ -1,5 +1,5 @@
 ---
-title: "Sewer Lateral Certificate in Oakland: Selling a Home | East Bay Sewer Inspection"
+title: "Sewer Lateral Certificate in Oakland: Selling a Home"
 description: "What Oakland home sellers and buyers need for the EBMUD private sewer lateral Compliance Certificate to close escrow."
 canonical: https://eastbaysewerinspection.com/city/oakland/
 ---
@@ -7,6 +7,8 @@ canonical: https://eastbaysewerinspection.com/city/oakland/
 [Home](https://eastbaysewerinspection.com/) › [Cities](https://eastbaysewerinspection.com/cities/) › Oakland
 
 # Sewer lateral certificate when selling in Oakland
+
+**Quick answer:** **Do I need a sewer lateral certificate to sell in Oakland?** Yes, if the property is an EBMUD wastewater customer in Oakland. Oakland is covered by the EBMUD Regional PSL Ordinance for escrows opened on or after January 16, 2012, so a Compliance Certificate (or an exemption or Time Extension Certificate) is needed to close escrow. A contractor repairs or replaces the lateral, then EBMUD witnesses a verification (leak) test. A CCTV video alone is not enough.
 
 Oakland is covered by the EBMUD Regional PSL Ordinance. It applies to escrows opened on or after **January 16, 2012**. Only EBMUD wastewater customers in the program area are covered, so check your parcel with EBMUD.
 
@@ -23,7 +25,9 @@ Local permits: Oakland may require its own sewer or plumbing permit for lateral 
 
 Data last verified 2026-10-12 against EBMUD and Regional PSL program pages.
 
-## Other East Bay cities
+## Which other East Bay cities require a sewer lateral certificate?
+
+Oakland, Alameda, Albany, Emeryville, Piedmont, El Cerrito, Kensington and Richmond Annex are in the EBMUD Regional PSL program. Berkeley runs its own separate program.
 
 [Alameda](https://eastbaysewerinspection.com/city/alameda/) · [Albany](https://eastbaysewerinspection.com/city/albany/) · [Emeryville](https://eastbaysewerinspection.com/city/emeryville/) · [Piedmont](https://eastbaysewerinspection.com/city/piedmont/) · [El Cerrito](https://eastbaysewerinspection.com/city/el-cerrito/) · [Kensington](https://eastbaysewerinspection.com/city/kensington/) · [Berkeley](https://eastbaysewerinspection.com/city/berkeley/)
 

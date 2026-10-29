@@ -20,6 +20,10 @@ See [about our data](https://eastbaysewerinspection.com/about-our-data/).
 * Rules and cost guides link the statute, regulation, agency page or official fee schedule they rely on. Where we couldn't confirm something from an official source, we say so or leave it out.
 * Nothing here is legal advice. Requirements change, so confirm with the agency or town before you act.
 
+## Who operates East Bay Sewer Inspection
+
+East Bay Sewer Inspection (eastbaysewerinspection.com) is operated by East Bay Sewer Inspection. Contact us through the [contact page](https://eastbaysewerinspection.com/contact/).
+
 ## Independence
 
 East Bay Sewer Inspection is independent. It isn't affiliated with any government agency, licensing board or contractor, and a listing is not an endorsement. See [how we make money](https://eastbaysewerinspection.com/how-we-make-money/), [how we verify listings](https://eastbaysewerinspection.com/how-we-verify/) and [about our data](https://eastbaysewerinspection.com/about-our-data/).

@@ -1,5 +1,5 @@
 ---
-title: "EBMUD Sewer Lateral Program: Participating Cities | East Bay Sewer Inspection"
+title: "EBMUD Sewer Lateral Program: Participating Cities"
 description: "Cities and areas covered by the EBMUD Regional Private Sewer Lateral ordinance, with start dates, plus Berkeley's separate program."
 canonical: https://eastbaysewerinspection.com/cities/
 ---

@@ -1,10 +1,12 @@
 ---
-title: "East Bay Sewer Inspection: EBMUD Sewer Lateral Certificate for Home Sales"
-description: "EBMUD private sewer lateral (PSL) Compliance Certificate guide for East Bay home sales: Oakland, Alameda, Albany, Emeryville, Piedmont, Stege SD and Berkeley."
+title: "East Bay Sewer Inspection | EBMUD Sewer Lateral Certificate"
+description: "East Bay Sewer Inspection explains the EBMUD sewer lateral certificate needed to sell a home in Oakland, Alameda, Albany, Emeryville, Piedmont and more."
 canonical: https://eastbaysewerinspection.com/
 ---
 
-# Selling a home in the East Bay? Get your sewer lateral certificate
+# East Bay Sewer Inspection: get your sewer lateral certificate for an East Bay home sale
+
+East Bay Sewer Inspection is a free, independent guide to the EBMUD Regional Private Sewer Lateral (PSL) ordinance: when a Compliance Certificate is needed to close escrow, how the verification test works, and Berkeley's separate program.
 
 In Oakland, Alameda, Albany, Emeryville, Piedmont, El Cerrito, Kensington and Richmond Annex, an EBMUD private sewer lateral **Compliance Certificate is required to close escrow**. Berkeley has its own program.
 

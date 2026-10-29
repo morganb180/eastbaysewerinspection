@@ -1,5 +1,5 @@
 ---
-title: "List, Claim, Correct or Remove a Listing | East Bay Sewer Inspection"
+title: "List, Claim, Correct or Remove a Listing"
 description: "Professionals can claim, correct, add or remove a East Bay Sewer Inspection listing. Every request is checked against the official record."
 canonical: https://eastbaysewerinspection.com/list-your-business/
 ---

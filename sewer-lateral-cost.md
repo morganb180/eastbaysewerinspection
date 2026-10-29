@@ -1,5 +1,5 @@
 ---
-title: "East Bay Sewer Lateral Certificate Fees & Replacement Costs | East Bay Sewer Inspection"
+title: "East Bay Sewer Lateral Certificate Fees & Costs"
 description: "EBMUD sewer lateral certificate fees ($407 Compliance Certificate as of July 2026) and what drives contractor repair and replacement costs."
 canonical: https://eastbaysewerinspection.com/sewer-lateral-cost/
 ---
@@ -18,6 +18,8 @@ EBMUD's own fees are published; contractor work (camera inspection, repair or re
 
 Source: [EBMUD PSL Program Fees](https://www.eastbaypsl.com/fees.html) and [Inspection Fee Guidelines](https://www.eastbaypsl.com/doc/InspectionFeeGuidelines.pdf), checked 2026-10-13. City sewer or encroachment permits are extra; check with your city.
 
-## Rules by city
+## Which East Bay cities require a sewer lateral certificate?
+
+Oakland, Alameda, Albany, Emeryville, Piedmont, El Cerrito, Kensington and Richmond Annex are in the EBMUD Regional PSL program. Berkeley runs its own separate program.
 
 [All cities](https://eastbaysewerinspection.com/cities/) · [Oakland](https://eastbaysewerinspection.com/city/oakland/) · [Alameda](https://eastbaysewerinspection.com/city/alameda/) · [Albany](https://eastbaysewerinspection.com/city/albany/) · [Emeryville](https://eastbaysewerinspection.com/city/emeryville/) · [Piedmont](https://eastbaysewerinspection.com/city/piedmont/) · [El Cerrito](https://eastbaysewerinspection.com/city/el-cerrito/) · [Berkeley (separate program)](https://eastbaysewerinspection.com/city/berkeley/)

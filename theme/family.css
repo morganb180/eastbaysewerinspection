@@ -232,3 +232,17 @@ div.card[id]>.muted:last-child{line-height:2}div.card[id]>.muted:last-child a{di
 .pill{color:#3d3a35}
 .hact .btn .bs{display:none}
 @media (max-width:640px){.hact .btn{display:inline-flex;align-items:center;min-height:40px;padding:.35rem .7rem;font-size:.82rem}.hact .btn .bl{display:none}.hact .btn .bs{display:inline}.hdr .logo{min-width:0;overflow:hidden;text-overflow:ellipsis}}
+
+/* SEO/AEO 2026-10-29: on-page ToC, quick answer, direct answers, small legal row */
+.answer{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--acc);border-radius:0 var(--r) var(--r) 0;padding:var(--s3) var(--s4);margin:var(--s3) 0 var(--s4);max-width:680px}
+.answer p{margin:0;font-size:.98rem;line-height:1.55;color:var(--ink)}
+.answer strong{color:var(--acc-ink)}
+.toc{background:var(--paper2);border:1px solid var(--line);border-radius:var(--r);padding:var(--s3) var(--s4);margin:0 0 var(--s5);font-size:.9rem;max-width:680px}
+.toc .toc-h{font:700 .74rem/1.2 var(--sans);letter-spacing:.09em;text-transform:uppercase;color:var(--acc);margin:0 0 var(--s2)}
+.toc ol{margin:0;padding-left:1.2rem}
+.toc li{margin:0 0 .3rem}
+.toc a{color:var(--ink2);text-decoration:none}
+.toc a:hover{color:var(--acc);text-decoration:underline}
+.direct{font-weight:500;color:var(--ink)}
+.foot .legal{font-size:.7rem;opacity:.8;margin:var(--s2) 0 0}
+.foot .legal a{min-height:0;padding:0}
