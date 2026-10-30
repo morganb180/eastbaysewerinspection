@@ -6,7 +6,7 @@ canonical: https://eastbaysewerinspection.com/list-your-business/
 
 # List, claim, correct or remove a listing
 
-Every listing on East Bay Sewer Inspection comes from your CSLB license record. Use this form to claim your free listing (add a phone number, website or service area), fix an error, ask to be added, or ask for a listing to be removed.
+Every listing on East Bay Sewer Inspection comes from EBMUD's PSL contractor list, checked against your CSLB license record. Use this form to claim your free listing (add a phone number, website or service area), fix an error, ask to be added, or ask for a listing to be removed.
 
 ## What happens next
 

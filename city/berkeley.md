@@ -15,6 +15,21 @@ Berkeley is **not** in the EBMUD regional program. It runs its own ([City of Ber
 
 Details summarized from city documents found 2026-10-12. Spot-check before launch.
 
+<!-- ebmud-list:start -->
+## Which contractors on EBMUD's list are based in Berkeley?
+
+2 of the 41 contractors we list from EBMUD's PSL contractor list (August 2026) have a business address in Berkeley. Berkeley runs its own program, so ask whether they handle Berkeley's city certificate. EBMUD doesn't publish service areas, so contractors based elsewhere may also work here: [see all 41](https://eastbaysewerinspection.com/contractors/).
+
+* **Bay Plumbing**: 2344 9th St, Apt E, Berkeley, CA 94710 · [(510) 860-2147](tel:5108602147) · [bayplumbing510@gmail.com](mailto:bayplumbing510@gmail.com)
+  * Services (self-certified to EBMUD): Residential PSL testing, Private main testing, Private manhole testing
+  * CSLB license #1020974, Active (CLEAR), expires 2028-11-30
+* **L.J. Kruse Company**: 920 Pardee St, Berkeley, CA 94710 · [(510) 644-0260](tel:5106440260) · [service@ljkruse.com](mailto:service@ljkruse.com)
+  * Services (self-certified to EBMUD): Residential PSL testing, Private main testing, Private manhole testing, Commercial PSL testing, PSL maps for HOAs / multi-lateral, CAP/CAWP (over 1,000 ft of PSL)
+  * CSLB license #405523, Active (CLEAR), expires 2027-05-31
+
+EBMUD publishes this as a *courtesy list*: contractors volunteered to be on it and self-certified the services they provide. It is not an exclusive list and EBMUD does not endorse anyone. EBMUD also keeps a separate list of contractors who are currently **ineligible** to do PSL inspections; check eligibility with EBMUD before you hire. Source: [EBMUD PSL Program Contractor List](https://www.eastbaypsl.com/doc/ContractorList.pdf), retrieved 2026-10-30; licenses checked against CSLB's License Master file (2026-10-28).
+<!-- ebmud-list:end -->
+
 ## Which East Bay cities use the EBMUD program instead?
 
 Oakland, Alameda, Albany, Emeryville, Piedmont, El Cerrito, Kensington and Richmond Annex are in the EBMUD Regional PSL program. Berkeley runs its own separate program.

@@ -25,6 +25,42 @@ Local permits: Oakland may require its own sewer or plumbing permit for lateral 
 
 Data last verified 2026-10-12 against EBMUD and Regional PSL program pages.
 
+<!-- ebmud-list:start -->
+## Which contractors on EBMUD's list are based in Oakland?
+
+9 of the 41 contractors we list from EBMUD's PSL contractor list (August 2026) have a business address in Oakland. EBMUD doesn't publish service areas, so contractors based elsewhere may also work here: [see all 41](https://eastbaysewerinspection.com/contractors/).
+
+* **A1 Bay Area Rooter and Plumbing**: 1424 57th Ave, Oakland, CA 94621 · [(510) 712-0906](tel:5107120906) · [a1plumbing17@gmail.com](mailto:a1plumbing17@gmail.com)
+  * Services (self-certified to EBMUD): Residential PSL testing, Private main testing, Commercial PSL testing, PSL maps for HOAs / multi-lateral
+  * CSLB license #1116691, Active (CLEAR), expires 2027-01-31
+* **East Bay Sewer Inc.**: 2025 100th Ave, Oakland, CA 94603 · [(510) 395-4850](tel:5103954850) · [eastbaysewerinc@gmail.com](mailto:eastbaysewerinc@gmail.com)
+  * Services (self-certified to EBMUD): Residential PSL testing, Private main testing, Private manhole testing, Commercial PSL testing, PSL maps for HOAs / multi-lateral, CAP/CAWP (over 1,000 ft of PSL)
+  * CSLB license #1135344, Active (CLEAR), expires 2027-04-30
+* **Economy Rooter & Plumbing Inc.**: 1752 84th Ave, Oakland, CA 94621 · [(510) 213-4296](tel:5102134296) · [economyrooterandplumbing@gmail.com](mailto:economyrooterandplumbing@gmail.com)
+  * Services (self-certified to EBMUD): Residential PSL testing, Private main testing, Private manhole testing, Commercial PSL testing, PSL maps for HOAs / multi-lateral, CAP/CAWP (over 1,000 ft of PSL)
+  * CSLB license #1039625, Active (CLEAR), expires 2028-05-31
+* **Emergency Rooter**: 10700 Snowdown Ave, Oakland, CA 94605 · [(510) 388-0567](tel:5103880567) · [erplumbingcon@gmail.com](mailto:erplumbingcon@gmail.com)
+  * Services (self-certified to EBMUD): Residential PSL testing, Private main testing, Private manhole testing, Commercial PSL testing, PSL maps for HOAs / multi-lateral, CAP/CAWP (over 1,000 ft of PSL)
+  * CSLB license #729165, Active (CLEAR), expires 2028-10-31
+* **Mr. Rooter Plumbing**: 50 Hegenberger Loop, Oakland, CA 94621 · [(510) 843-6378](tel:5108436378) · [info@mrrooteroakland.com](mailto:info@mrrooteroakland.com)
+  * Services (self-certified to EBMUD): Residential PSL testing, Private main testing, Commercial PSL testing, PSL maps for HOAs / multi-lateral
+  * CSLB license #453536, Active (CLEAR), expires 2028-04-30
+* **Pipe Spy, Inc.**: 1108 26th St, Oakland, CA 94607 · [(510) 465-3000](tel:5104653000) · [MoneyPenny@PipeSpy.com](mailto:MoneyPenny@PipeSpy.com)
+  * Services (self-certified to EBMUD): Residential PSL testing, Private main testing, Private manhole testing, Commercial PSL testing, PSL maps for HOAs / multi-lateral, CAP/CAWP (over 1,000 ft of PSL)
+  * CSLB license #754966, Active (CLEAR), expires 2028-10-31
+* **Precision Sewers**: 1423 Willow St, Oakland, CA 94607 · [(510) 381-5000](tel:5103815000) · [patt95@hotmail.com](mailto:patt95@hotmail.com)
+  * Services (self-certified to EBMUD): Residential PSL testing, Private main testing, Private manhole testing, Commercial PSL testing, PSL maps for HOAs / multi-lateral
+  * CSLB license #707251, Active (CLEAR), expires 2027-05-31
+* **Toto's Plumbing**: 2301 Courtland Ave, Oakland, CA 94601 · [(510) 292-6558](tel:5102926558) · [totosplumbing@gmail.com](mailto:totosplumbing@gmail.com)
+  * Services (self-certified to EBMUD): Residential PSL testing, Private main testing, Private manhole testing, Commercial PSL testing, PSL maps for HOAs / multi-lateral, CAP/CAWP (over 1,000 ft of PSL)
+  * CSLB license #1001580, Active (CLEAR), expires 2027-02-28
+* **Washington Rooter & Plumbing**: 9878 Koford Rd, Oakland, CA 94603 · [(707) 365-1835](tel:7073651835) · [washingtonrooterplumbing@gmail.com](mailto:washingtonrooterplumbing@gmail.com)
+  * Services (self-certified to EBMUD): Residential PSL testing, Private main testing, Private manhole testing, Commercial PSL testing
+  * CSLB license #1111618, Active (CLEAR), expires 2027-10-31
+
+EBMUD publishes this as a *courtesy list*: contractors volunteered to be on it and self-certified the services they provide. It is not an exclusive list and EBMUD does not endorse anyone. EBMUD also keeps a separate list of contractors who are currently **ineligible** to do PSL inspections; check eligibility with EBMUD before you hire. Source: [EBMUD PSL Program Contractor List](https://www.eastbaypsl.com/doc/ContractorList.pdf), retrieved 2026-10-30; licenses checked against CSLB's License Master file (2026-10-28).
+<!-- ebmud-list:end -->
+
 ## Which other East Bay cities require a sewer lateral certificate?
 
 Oakland, Alameda, Albany, Emeryville, Piedmont, El Cerrito, Kensington and Richmond Annex are in the EBMUD Regional PSL program. Berkeley runs its own separate program.

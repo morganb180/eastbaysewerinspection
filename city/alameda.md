@@ -25,6 +25,21 @@ Local permits: Alameda may require its own sewer or plumbing permit for lateral 
 
 Data last verified 2026-10-12 against EBMUD and Regional PSL program pages.
 
+<!-- ebmud-list:start -->
+## Which contractors on EBMUD's list are based in Alameda?
+
+2 of the 41 contractors we list from EBMUD's PSL contractor list (August 2026) have a business address in Alameda. EBMUD doesn't publish service areas, so contractors based elsewhere may also work here: [see all 41](https://eastbaysewerinspection.com/contractors/).
+
+* **AT Weber Plumbing & Mechanical Services Inc.**: 1100 Lincoln Ave, Alameda, CA 94501 · [(510) 523-0628](tel:5105230628) · [info@atweber.com](mailto:info@atweber.com)
+  * Services (self-certified to EBMUD): Residential PSL testing, Private main testing, Private manhole testing, Commercial PSL testing, PSL maps for HOAs / multi-lateral, CAP/CAWP (over 1,000 ft of PSL)
+  * CSLB license #562098, Active (CLEAR), expires 2026-12-31
+* **Jim Bustos Plumbing**: 1450 Viking St, Alameda, CA 94501 · [(510) 521-1576](tel:5105211576) · [service@bustosplumbing.com](mailto:service@bustosplumbing.com)
+  * Services (self-certified to EBMUD): Residential PSL testing
+  * CSLB license #351329, Active (CLEAR), expires 2028-09-30
+
+EBMUD publishes this as a *courtesy list*: contractors volunteered to be on it and self-certified the services they provide. It is not an exclusive list and EBMUD does not endorse anyone. EBMUD also keeps a separate list of contractors who are currently **ineligible** to do PSL inspections; check eligibility with EBMUD before you hire. Source: [EBMUD PSL Program Contractor List](https://www.eastbaypsl.com/doc/ContractorList.pdf), retrieved 2026-10-30; licenses checked against CSLB's License Master file (2026-10-28).
+<!-- ebmud-list:end -->
+
 ## Which other East Bay cities require a sewer lateral certificate?
 
 Oakland, Alameda, Albany, Emeryville, Piedmont, El Cerrito, Kensington and Richmond Annex are in the EBMUD Regional PSL program. Berkeley runs its own separate program.

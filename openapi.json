@@ -3,7 +3,7 @@
   "info": {
     "title": "East Bay Sewer Inspection directory API",
     "version": "1.0.0",
-    "summary": "Read-only search of sewer lateral contractors (none listed yet).",
+    "summary": "Read-only search of sewer lateral contractors on EBMUD's PSL contractor list.",
     "description": "Public listing data from East Bay Sewer Inspection (https://eastbaysewerinspection.com). Built only from what the site already publishes; no phone numbers, emails or street addresses (see each firm_url). A listing is not an endorsement.",
     "contact": {
       "name": "East Bay Sewer Inspection",
@@ -73,7 +73,12 @@
             "schema": {
               "type": "string",
               "enum": [
-                "none"
+                "residential_psl_testing",
+                "private_main_testing",
+                "private_manhole_testing",
+                "commercial_psl_testing",
+                "psl_maps_hoa_multilateral",
+                "cap_cawp_over_1000ft"
               ]
             }
           },
@@ -165,7 +170,7 @@
       ],
       "get": {
         "operationId": "listAllFirms",
-        "summary": "All 0 listed firms",
+        "summary": "All 41 listed firms",
         "responses": {
           "200": {
             "description": "All firms",
@@ -357,7 +362,12 @@
             "items": {
               "type": "string",
               "enum": [
-                "none"
+                "residential_psl_testing",
+                "private_main_testing",
+                "private_manhole_testing",
+                "commercial_psl_testing",
+                "psl_maps_hoa_multilateral",
+                "cap_cawp_over_1000ft"
               ]
             }
           },

@@ -4,9 +4,9 @@
     {
       "name": "east-bay-sewer-inspection-find-firms",
       "type": "skill-md",
-      "description": "Find sewer lateral contractors (none listed yet) on East Bay Sewer Inspection by city/town or county, with credentials and links to each listing.",
+      "description": "Find sewer lateral contractors on EBMUD's PSL contractor list on East Bay Sewer Inspection by city/town or county, with credentials and links to each listing.",
       "url": "https://eastbaysewerinspection.com/.well-known/agent-skills/east-bay-sewer-inspection-find-firms/SKILL.md",
-      "digest": "sha256:64c0650cac8fdbe8ac70adff86dce4d4faa1f130a227d8bf60acedbb950a828b"
+      "digest": "sha256:02bcb4430d3a54c915179be43beeb95d869cf9cd00cd7d5320321e22511beeb4"
     }
   ]
 }

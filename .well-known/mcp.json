@@ -3,7 +3,7 @@
   "name": "com.eastbaysewerinspection/directory",
   "title": "East Bay Sewer Inspection directory",
   "version": "1.0.0",
-  "description": "Search sewer lateral contractors (none listed yet).",
+  "description": "Search sewer lateral contractors on EBMUD's PSL contractor list.",
   "websiteUrl": "https://eastbaysewerinspection.com/",
   "remotes": [
     {

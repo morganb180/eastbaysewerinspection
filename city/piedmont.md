@@ -25,6 +25,14 @@ Local permits: Piedmont may require its own sewer or plumbing permit for lateral
 
 Data last verified 2026-10-12 against EBMUD and Regional PSL program pages.
 
+<!-- ebmud-list:start -->
+## Which contractors on EBMUD's list are based in Piedmont?
+
+None of the 41 contractors we list from EBMUD's PSL contractor list (August 2026) has a business address in Piedmont. EBMUD doesn't publish service areas, so contractors based in nearby cities may work here: [see all 41](https://eastbaysewerinspection.com/contractors/).
+
+EBMUD publishes this as a *courtesy list*: contractors volunteered to be on it and self-certified the services they provide. It is not an exclusive list and EBMUD does not endorse anyone. EBMUD also keeps a separate list of contractors who are currently **ineligible** to do PSL inspections; check eligibility with EBMUD before you hire. Source: [EBMUD PSL Program Contractor List](https://www.eastbaypsl.com/doc/ContractorList.pdf), retrieved 2026-10-30; licenses checked against CSLB's License Master file (2026-10-28).
+<!-- ebmud-list:end -->
+
 ## Which other East Bay cities require a sewer lateral certificate?
 
 Oakland, Alameda, Albany, Emeryville, Piedmont, El Cerrito, Kensington and Richmond Annex are in the EBMUD Regional PSL program. Berkeley runs its own separate program.

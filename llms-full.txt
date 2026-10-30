@@ -2,13 +2,13 @@
 
 > East Bay Sewer Inspection explains the EBMUD Regional Private Sewer Lateral (PSL) ordinance: when a Compliance Certificate is needed to close escrow in Oakland, Alameda, Albany, Emeryville, Piedmont and the Stege Sanitary District, how the verification test works, and Berkeley's separate program.
 
-It is for East Bay home sellers, buyers, agents and escrow officers. This is a guide site: it has no contractor listings yet. Contractors can use the list-your-business page. Every page has a Markdown version: replace the trailing slash with `.md` (home: https://eastbaysewerinspection.com/index.md).
+It is for East Bay home sellers, buyers, agents and escrow officers. It also lists 41 contractors from EBMUD's PSL contractor list (a courtesy list, August 2026) whose CSLB licenses are active. Contractors can use the list-your-business page. Every page has a Markdown version: replace the trailing slash with `.md` (home: https://eastbaysewerinspection.com/index.md).
 
 ## Guides
 - [EBMUD Sewer Lateral Certificate: Selling an East Bay Home](https://eastbaysewerinspection.com/ebmud-psl-program/): how the certificate works
 - [EBMUD Sewer Lateral Program: Participating Cities](https://eastbaysewerinspection.com/cities/): participating cities
 - [East Bay Sewer Lateral Certificate Fees & Replacement Costs](https://eastbaysewerinspection.com/sewer-lateral-cost/): EBMUD fees and cost factors
-- [Finding a Sewer Lateral Contractor in the East Bay](https://eastbaysewerinspection.com/contractors/): no listings yet; how to vet
+- [EBMUD Sewer Lateral Contractor List (41 Contractors)](https://eastbaysewerinspection.com/contractors/): 41 contractors from EBMUD's courtesy list with active CSLB licenses and their services; how to vet
 
 ## About
 - [About East Bay Sewer Inspection](https://eastbaysewerinspection.com/about/)
@@ -26,7 +26,7 @@ It is for East Bay home sellers, buyers, agents and escrow officers. This is a g
 - [EBMUD Sewer Lateral Certificate: Selling an East Bay Home](https://eastbaysewerinspection.com/ebmud-psl-program/)
 - [EBMUD Sewer Lateral Program: Participating Cities](https://eastbaysewerinspection.com/cities/)
 - [East Bay Sewer Lateral Certificate Fees & Replacement Costs](https://eastbaysewerinspection.com/sewer-lateral-cost/)
-- [Finding a Sewer Lateral Contractor in the East Bay](https://eastbaysewerinspection.com/contractors/)
+- [EBMUD Sewer Lateral Contractor List (41 Contractors)](https://eastbaysewerinspection.com/contractors/)
 
 ## City pages
 - [Sewer Lateral Certificate in Oakland: Selling a Home](https://eastbaysewerinspection.com/city/oakland/)

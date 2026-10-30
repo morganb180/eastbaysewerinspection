@@ -6,12 +6,13 @@ canonical: https://eastbaysewerinspection.com/how-we-verify/
 
 # How we verify listings
 
-This is a guide site with no contractor listings yet. Program facts come from EBMUD (ebmud.com) and the Regional PSL site (eastbaypsl.com), read on 2026-10-12, plus the City of Berkeley's program pages.
+Contractor listings come from EBMUD's PSL Program Contractor List (a courtesy list, August 2026), with each license checked against CSLB's License Master file (2026-10-28). Program facts come from EBMUD (ebmud.com) and the Regional PSL site (eastbaypsl.com), read on 2026-10-12, plus the City of Berkeley's program pages.
 
 ## What we check
 
 * Each city page states its source and date.
-* No contractor is listed until it can be checked against its California (CSLB) license record.
+* Every listed contractor is on EBMUD's current contractor list, and its license number was checked against the CSLB License Master file. Contractors whose license shows a suspension are left off.
+* Services shown are the ones each contractor self-certified to EBMUD; we haven't verified them.
 
 ## What we don't verify
 

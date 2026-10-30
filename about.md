@@ -8,7 +8,7 @@ canonical: https://eastbaysewerinspection.com/about/
 
 East Bay Sewer Inspection explains the EBMUD Regional Private Sewer Lateral (PSL) ordinance: when a Compliance Certificate is needed to close escrow in Oakland, Alameda, Albany, Emeryville, Piedmont and the Stege Sanitary District, how the verification test works, and Berkeley's separate program.
 
-It is for East Bay home sellers, buyers, agents and escrow officers. This is a guide site: it has no contractor listings yet. Contractors can use the list-your-business page.
+It is for East Bay home sellers, buyers, agents and escrow officers. It also lists 41 contractors from EBMUD's PSL contractor list (a courtesy list) whose licenses are active on CSLB records. Contractors can claim or correct a listing on the list-your-business page.
 
 ## Where the information comes from
 

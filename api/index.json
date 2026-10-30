@@ -3,21 +3,59 @@
   "site": "eastbay",
   "name": "East Bay Sewer Inspection",
   "url": "https://eastbaysewerinspection.com/",
-  "description": "Public listing data for sewer lateral contractors (none listed yet).",
+  "description": "Public listing data for sewer lateral contractors on EBMUD's PSL contractor list.",
   "generated": "2026-10-29",
-  "last_updated": null,
+  "last_updated": "2026-10-30",
   "data_source": {
     "description": "Official licence/certification records as published on the site; each firm record has its own source URL and retrieval date.",
-    "sources": []
+    "sources": [
+      {
+        "url": "https://www.eastbaypsl.com/doc/ContractorList.pdf",
+        "agency": "East Bay Municipal Utility District (EBMUD) Regional PSL Program courtesy list; licenses: Contractors State License Board (CSLB)",
+        "retrieved": "2026-10-30",
+        "firms": 41
+      },
+      {
+        "url": "https://www.cslb.ca.gov/onlineservices/dataportal/ContractorList",
+        "agency": "East Bay Municipal Utility District (EBMUD) Regional PSL Program courtesy list; licenses: Contractors State License Board (CSLB)",
+        "retrieved": "2026-10-30",
+        "firms": 41
+      }
+    ]
   },
   "attribution": "Listing data from East Bay Sewer Inspection (https://eastbaysewerinspection.com/), built from public licence records. Not an endorsement.",
   "counts": {
-    "firms": 0,
+    "firms": 41,
     "counties": 0,
     "cities": 9,
     "states": 0
   },
-  "services": [],
+  "services": [
+    {
+      "code": "residential_psl_testing",
+      "label": "Residential PSL testing"
+    },
+    {
+      "code": "private_main_testing",
+      "label": "Private main testing"
+    },
+    {
+      "code": "private_manhole_testing",
+      "label": "Private manhole testing"
+    },
+    {
+      "code": "commercial_psl_testing",
+      "label": "Commercial PSL testing"
+    },
+    {
+      "code": "psl_maps_hoa_multilateral",
+      "label": "PSL maps for HOAs / multi-lateral"
+    },
+    {
+      "code": "cap_cawp_over_1000ft",
+      "label": "CAP/CAWP (over 1,000 ft of PSL)"
+    }
+  ],
   "fields_excluded": "Phone, email and street address are not included; see each firm_url.",
   "endpoints": {
     "firms": "https://eastbaysewerinspection.com/api/firms.json",
@@ -41,8 +79,8 @@
       "state": "CA",
       "page": "https://eastbaysewerinspection.com/city/alameda/",
       "feed": "https://eastbaysewerinspection.com/api/city/alameda.json",
-      "count": 0,
-      "local_count": 0
+      "count": 2,
+      "local_count": 2
     },
     {
       "slug": "albany",
@@ -59,8 +97,8 @@
       "state": "CA",
       "page": "https://eastbaysewerinspection.com/city/berkeley/",
       "feed": "https://eastbaysewerinspection.com/api/city/berkeley.json",
-      "count": 0,
-      "local_count": 0
+      "count": 2,
+      "local_count": 2
     },
     {
       "slug": "el-cerrito",
@@ -86,8 +124,8 @@
       "state": "CA",
       "page": "https://eastbaysewerinspection.com/city/kensington/",
       "feed": "https://eastbaysewerinspection.com/api/city/kensington.json",
-      "count": 0,
-      "local_count": 0
+      "count": 1,
+      "local_count": 1
     },
     {
       "slug": "oakland",
@@ -95,8 +133,8 @@
       "state": "CA",
       "page": "https://eastbaysewerinspection.com/city/oakland/",
       "feed": "https://eastbaysewerinspection.com/api/city/oakland.json",
-      "count": 0,
-      "local_count": 0
+      "count": 9,
+      "local_count": 9
     },
     {
       "slug": "piedmont",
