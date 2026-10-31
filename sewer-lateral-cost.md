@@ -8,6 +8,8 @@ canonical: https://eastbaysewerinspection.com/sewer-lateral-cost/
 
 > Last updated 2026-10-13. Checked against the official sources listed at the end of this page.
 
+Reviewed by East Bay Sewer Inspection staff
+
 EBMUD's own fees are published; contractor work (camera inspection, repair or replacement) is priced by each contractor and varies with lateral length, depth, access, method (trenchless vs open trench) and city permits, so get at least two written bids.
 
 | EBMUD fee (effective July 1, 2026) | Amount |

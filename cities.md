@@ -8,6 +8,8 @@ canonical: https://eastbaysewerinspection.com/cities/
 
 > Last updated 2026-10-13. Checked against the official sources listed at the end of this page.
 
+Reviewed by East Bay Sewer Inspection staff
+
 | Area | Program start |
 | --- | --- |
 | [Oakland](https://eastbaysewerinspection.com/city/oakland/) | January 16, 2012 |

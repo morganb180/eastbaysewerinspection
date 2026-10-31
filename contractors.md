@@ -8,6 +8,8 @@ canonical: https://eastbaysewerinspection.com/contractors/
 
 > Last updated 2026-10-30. Checked against the official sources listed at the end of this page.
 
+Reviewed by East Bay Sewer Inspection staff
+
 <!-- ebmud-list:start -->
 **41 contractors** from EBMUD's PSL Program Contractor List ([ContractorList.pdf](https://www.eastbaypsl.com/doc/ContractorList.pdf), dated August 2026, retrieved 2026-10-30). EBMUD publishes this as a *courtesy list*: contractors volunteered to be on it and self-certified the services they provide. It is not an exclusive list and EBMUD does not endorse anyone. EBMUD also keeps a separate list of contractors who are currently **ineligible** to do PSL inspections; check eligibility with EBMUD before you hire. We checked every license number against CSLB's License Master file (data as of 2026-10-28) and list the 41 with an active (CLEAR) license; 2 whose license showed a suspension are left off. Contractors: [claim or correct your listing](https://eastbaysewerinspection.com/list-your-business/).
 
