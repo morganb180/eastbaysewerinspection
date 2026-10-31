@@ -1,0 +1,83 @@
+/* Quote form, quote-first cards, firm pages and Google ratings. Ported from radonroster.com/style.css by tools/netport.py */
+
+.leadform label{display:block;margin:.55rem 0 .2rem;font-weight:600;font-size:.92rem}
+.leadform input:not([type=checkbox]),.leadform select,.leadform textarea{width:100%;padding:.5rem .6rem;border:1px solid var(--line,#c9d2df);border-radius:6px;font:inherit;background:#fff}
+.leadform .lf2{display:grid;grid-template-columns:1fr 1fr;gap:.6rem}
+.leadform .consent{display:flex;gap:.5rem;align-items:flex-start;font-weight:400;font-size:.82rem;line-height:1.4;margin:.8rem 0}
+.leadform .consent input{margin-top:.2rem;flex:none;width:1.05rem;height:1.05rem}
+.leadform .hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+.leadform .cf-turnstile{margin:.4rem 0 .6rem}.leadform .lf-out{font-size:.88rem;margin:.4rem 0 0}
+.leadform .lf-h{font:600 1.05rem var(--sans,system-ui);margin:0 0 .3rem}
+.leadform.compact label{font-size:.85rem;margin:.4rem 0 .15rem}.leadform.compact .consent{font-size:.76rem}
+.panel .leadform{margin:0}
+.fz-dym,.fz-none{margin:.4rem 0;font-size:.9rem}
+.reqform label{display:block;margin-top:.6rem}.reqform input,.reqform select,.reqform textarea{width:100%;box-sizing:border-box}.reqform .btn{margin-top:1rem}
+/* simplified quote form (/quotes/) */
+.leadform .lf-need{border:0;padding:0;margin:.55rem 0 0;min-width:0}
+.leadform .lf-need legend{padding:0;margin:0 0 .3rem;font-weight:600;font-size:.92rem}
+.leadform .lf-opts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.5rem}
+.leadform label.lf-opt{position:relative;margin:0;font-weight:400}
+.leadform .lf-opt input{position:absolute;opacity:0;width:1px;height:1px}
+.leadform .lf-opt span{display:flex;align-items:center;justify-content:center;text-align:center;min-height:44px;padding:.4rem .5rem;border:1px solid var(--line2,#d6d0c3);border-radius:6px;background:#fff;cursor:pointer;font-weight:600;font-size:.92rem;line-height:1.2}
+.leadform .lf-opt span:hover{border-color:var(--acc)}
+.leadform .lf-opt input:checked+span{background:var(--acc);border-color:var(--acc);color:#fff}
+.leadform .lf-opt input:focus-visible+span{outline:2px solid var(--acc);outline-offset:2px}
+.leadform .lf-hint{font-size:.8rem;margin:.3rem 0 0}
+.leadform .lf-zip{max-width:9rem}
+.leadform .lf-pair{display:grid;grid-template-columns:1fr 1fr;gap:.6rem}
+@media (max-width:640px){.leadform .lf-pair{grid-template-columns:1fr;gap:0}}
+.leadform .lf-firm{margin:.2rem 0 .4rem;font-size:.92rem}
+/* listing cards: name links to the firm page, quote-first CTA (no phone on routable cards) */
+
+.card .fcta .qbtn{min-height:36px;padding:.45rem 1rem;font-size:.9rem;margin:0;white-space:nowrap}
+.card h3 a{color:inherit;text-decoration:none}.card h3 a:hover{text-decoration:underline}
+.stars{position:relative;display:inline-block;font-style:normal;color:var(--line2);letter-spacing:1px;line-height:1}
+.stars::before{content:"★★★★★";position:absolute;left:0;top:0;width:var(--r);overflow:hidden;white-space:nowrap;color:#b9770e}
+.grat{display:block;margin-top:var(--s1);font-size:.8rem;color:var(--mute)}.grat .stars{font-size:.85rem;margin-right:.3rem}.grat b{color:var(--ink);font-weight:600;margin-right:.15rem}
+a.grat{display:inline;text-decoration:none}a.grat:hover{text-decoration:underline}
+
+/* firm profile pages */
+.fp-aka{margin:.1rem 0 .3rem}.fp-flag{color:#8a5a00;font-size:.85rem;margin:.2rem 0}.fp-pills{margin:.3rem 0 .5rem}.fp-pills .pill{margin-left:.3rem}
+.fp-lede{font-size:1rem}.fp-cta h2{font-size:1.25rem;margin:.2rem 0 .4rem}.fp-or{font-size:.88rem;margin:.7rem 0 0;text-align:center}
+.fp .sec{margin-bottom:var(--s7)}.fp .sec h2{margin-top:0}
+.fp-contact,.fp-kv{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--s4) var(--s6);overflow-wrap:anywhere}
+.fp-contact h4,.fp-kv h4{font:500 .68rem/1.2 var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--mute);margin:0 0 4px}
+.fp-list{padding-left:1.1rem}.fp-list li{margin:.2rem 0}.fp-list.cols2{columns:2;column-gap:var(--s7)}.fp-list.cols2 li{break-inside:avoid}
+.grating .gbig{font-size:1rem}.grating .gbig b{font-size:1.4rem;margin:0 .3rem}.stars.lg{font-size:1.3rem}
+.grev{margin:var(--s4) 0;padding:var(--s3) var(--s4);border-left:3px solid var(--line2);background:var(--card)}.grev p{margin:0 0 .4rem}.grev footer{font-size:.82rem;color:var(--mute)}.grev .stars{font-size:.8rem}
+.gattr{font-size:.78rem}
+@media (max-width:640px){.fp-contact,.fp-kv{grid-template-columns:1fr}.fp-list.cols2{columns:1}}
+.leadform .consent.optin{margin-top:-.3rem}
+
+.leadform .lf-opts{grid-template-columns:repeat(auto-fit,minmax(8.5rem,1fr))}
+.leadform{max-width:640px}
+.card .fcta{display:flex;gap:.8rem;align-items:center;flex-wrap:wrap;margin-top:.6rem}
+.card .fcta .more{font-size:.85rem}
+.card .grat{margin:.1rem 0 .2rem}
+.lf-cta{margin:.4rem 0 1rem}
+.leadform .consent input[type=checkbox]{width:1.05rem;height:1.05rem;min-height:0;padding:0;margin:.2rem 0 0}
+@media (max-width:640px){.card .fcta .qbtn{flex:1;min-height:44px}}
+/* UX parity with radonroster.com 2026-10-31: quote-first expandable firm rows (contact details live inside the collapsed row, never ahead of the CTA) */
+.firm .fcta{position:absolute;right:60px;top:var(--s4);display:flex;align-items:center;min-height:32px}
+.firm .fcta .qbtn{min-height:36px;padding:.45rem 1rem;font-size:.9rem;margin:0;white-space:nowrap}
+.firm .fcta .qbtn.alt{background:var(--card);color:var(--acc-ink);border:1px solid var(--acc)}
+.firm .fcta .qbtn.alt:hover{background:var(--acc-tint)}
+.firm h3 a{color:inherit;text-decoration:none}
+.firm h3 a:hover{text-decoration:underline}
+.firm summary .badge,.firm summary .pill{margin:0 4px 0 0}
+.firm .grat{margin-top:4px}
+.firm .fd li{margin:0 0 4px}
+.firm .fd ul.ids{font-size:.8rem}
+.firm .fd .fpl{grid-column:1/-1;margin-top:-4px}
+.pbody>.qbar{max-width:none}
+.firm{scroll-margin-top:64px}
+@media (max-width:640px){.firm .fcta{position:static;border-top:1px solid var(--line);padding:var(--s2) var(--s4)}
+.firm .fcta .qbtn{flex:1;min-height:44px;justify-content:center}}
+
+/* East Bay Sewer Inspection: firm-row contact list, crumbs nav */
+.firm .fd ul{margin:0;padding-left:1.1rem}.firm .fd .gnote{font-size:.8rem}.firm summary .grat{margin-left:.4rem}
+.fp-list.cols2{columns:2;column-gap:2rem}@media(max-width:640px){.fp-list.cols2{columns:1}}
+
+/* East Bay Sewer Inspection: quote CTA inside listing cards, quote bar, next-step panel */
+.card .fcta{display:flex;gap:.8rem;align-items:center;flex-wrap:wrap;margin-top:.6rem}
+.qbar{display:flex;gap:.8rem;align-items:center;justify-content:space-between;flex-wrap:wrap;margin:var(--s5,1rem) 0;padding:.7rem 1rem;border:1px solid var(--line2,#d6d0c3);border-radius:8px;background:var(--card,#fff)}.qbar span{font-size:.92rem}.qbar b{display:block}

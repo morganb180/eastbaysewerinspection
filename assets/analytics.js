@@ -24,7 +24,7 @@ gtag("set","allow_ad_personalization_signals",false);
 gtag("js",new Date());
 var CARD=".firm[id],.card[id]",LEADF="form[data-lead]",page=ptype();
 function q(s,r){return(r||d).querySelector(s)}function qa(s,r){return Array.prototype.slice.call((r||d).querySelectorAll(s))}
-function ptype(){var p=location.pathname;if(p=="/")return"home";if(/^\/get-quotes\//.test(p))return q(LEADF)?"quote_form":"search";if(q(".fp-cta,.fp-contact"))return"firm";if(/\/guide\/$/.test(p))return"city_guide";var a=area();if(a&&q(CARD))return"listing";if(q(CARD))return"listing";return"content"}
+function ptype(){var p=location.pathname;if(p=="/")return"home";if(/^\/quotes\//.test(p))return q(LEADF)?"quote_form":"search";if(q(".fp-cta,.fp-contact"))return"firm";if(/\/guide\/$/.test(p))return"city_guide";var a=area();if(a&&q(CARD))return"listing";if(q(CARD))return"listing";return"content"}
 function area(){var p=location.pathname.split("/").filter(Boolean),i;for(i=0;i<p.length-1;i++)if(/^(county|city|town)$/.test(p[i]))return{area:p[i+1],area_type:p[i],state:i>0&&/^[a-z]{2}$/.test(p[i-1])?p[i-1]:void 0};return null}
 var A=area()||{};
 gtag("config",GA_ID,{allow_google_signals:false,allow_ad_personalization_signals:false,page_location:clean(location.href),page_referrer:d.referrer?clean(d.referrer):void 0,page_type:page,site:SITE});
@@ -56,7 +56,7 @@ d.addEventListener("click",function(e){var a=e.target&&e.target.closest?e.target
  if(/^mailto:/i.test(h)){var own=h.toLowerCase().indexOf("@"+HOSTS[0])>0;track("click_email",{firm_id:own?void 0:fidOf(a),index:c?pos(c):void 0,link_location:own?"site_contact":where(a),area:A.area});return}
  try{u=new URL(a.href)}catch(x){return}
  if(u.host!=location.host){if(a.getAttribute("data-ct")=="web"||((c||a.closest(".fp-contact,.gx"))&&isDomain(txt(a)))){track("click_website",{firm_id:fidOf(a),index:c?pos(c):void 0,link_location:where(a),link_domain:u.hostname.replace(/^www\./,""),area:A.area})}return}
- var p=u.pathname,cta=/^\/get-quotes\//.test(p)?"get_quotes":/^\/(claim-listing|list-your-business)\//.test(p)?"claim_listing":/^\/(for-pros|for-contractors)\//.test(p)?"for_pros":a.matches(".btn,.qbtn,.lf-cta,.more")?"button":"";
+ var p=u.pathname,cta=/^\/quotes\//.test(p)?"get_quotes":/^\/(claim-listing|list-your-business)\//.test(p)?"claim_listing":/^\/(for-pros|for-contractors)\//.test(p)?"for_pros":a.matches(".btn,.qbtn,.lf-cta,.more")?"button":"";
  if(c&&cta!="claim_listing"&&(cta=="get_quotes"||/\/firms\//.test(p)))track("select_item",{item_list_name:A.area_type||page,item_id:c.id,index:pos(c),select_type:cta=="get_quotes"?"quote":"profile",area:A.area,items:[{item_id:c.id,index:pos(c),item_list_name:A.area_type||page}]});
  if(cta)track("cta_click",{cta:cta,cta_location:where(a),firm_id:(/[?&](?:firm|id)=([A-Za-z0-9]+)/.exec(u.search)||[])[1],link_text:txt(a),link_url:p,area:A.area})},true);
 /* a visitor expanding a firm card's details counts as selecting it (once per card; ignores details that start open) */
@@ -91,7 +91,7 @@ function tsHooks(){qa(LEADF).forEach(function(f,i){var t=q(".cf-turnstile",f);if
 
 /* ---------- page-level funnel events ---------- */
 function init(){tsHooks();
- if(page=="firm"&&FP){var cr=q('.crumbs a[href*="/county/"]'),ca=cr?(/\/county\/([^/]+)/.exec(cr.getAttribute("href"))||[])[1]:void 0;track("view_item",{item_id:FP,area:ca,area_type:ca?"county":void 0,has_quote_cta:!!q('.fp-cta a[href*="get-quotes"]'),items:[{item_id:FP}]})}
+ if(page=="firm"&&FP){var cr=q('.crumbs a[href*="/county/"]'),ca=cr?(/\/county\/([^/]+)/.exec(cr.getAttribute("href"))||[])[1]:void 0;track("view_item",{item_id:FP,area:ca,area_type:ca?"county":void 0,has_quote_cta:!!q('.fp-cta a[href*="/quotes/"]'),items:[{item_id:FP}]})}
  else if(page=="listing"||page=="city_guide"){var cs=qa(CARD);if(cs.length)track("view_search_results",{area:A.area,area_type:A.area_type,state:A.state,result_count:cs.length,item_list_name:A.area_type||page})}
 }
 if(d.readyState=="loading")d.addEventListener("DOMContentLoaded",init);else init();

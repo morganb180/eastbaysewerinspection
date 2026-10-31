@@ -44,6 +44,9 @@ Oakland, Alameda, Albany, Emeryville, Piedmont, El Cerrito, Kensington and Richm
 
 [Find a contractor](https://eastbaysewerinspection.com/contractors/)
 
+
+Get free quotes: https://eastbaysewerinspection.com/quotes/ sends one request to up to 3 sewer lateral contractors on EBMUD's PSL contractor list (active CSLB licence) near you. Free, no obligation.
+
 ## Frequently asked questions
 
 **Do I need a sewer lateral certificate to sell a home in Berkeley?**
