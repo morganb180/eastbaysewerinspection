@@ -4,6 +4,9 @@
 
 It is for East Bay home sellers, buyers, agents and escrow officers. It also lists 41 contractors from EBMUD's PSL contractor list (a courtesy list, August 2026) whose CSLB licenses are active. Contractors can use the list-your-business page. Every page has a Markdown version: replace the trailing slash with `.md` (home: https://eastbaysewerinspection.com/index.md).
 
+## Guides hub
+- [East Bay sewer lateral guides](https://eastbaysewerinspection.com/guides/): all guides in one place
+
 ## Guides
 - [EBMUD Sewer Lateral Certificate: Selling an East Bay Home](https://eastbaysewerinspection.com/ebmud-psl-program/): how the certificate works
 - [EBMUD Sewer Lateral Program: Participating Cities](https://eastbaysewerinspection.com/cities/): participating cities

@@ -6,6 +6,8 @@ canonical: https://eastbaysewerinspection.com/sewer-lateral-cost/
 
 # What does a sewer lateral certificate cost?
 
+> Last updated 2026-10-13. Checked against the official sources listed at the end of this page.
+
 EBMUD's own fees are published; contractor work (camera inspection, repair or replacement) is priced by each contractor and varies with lateral length, depth, access, method (trenchless vs open trench) and city permits, so get at least two written bids.
 
 | EBMUD fee (effective July 1, 2026) | Amount |
@@ -23,3 +25,8 @@ Source: [EBMUD PSL Program Fees](https://www.eastbaypsl.com/fees.html) and [Insp
 Oakland, Alameda, Albany, Emeryville, Piedmont, El Cerrito, Kensington and Richmond Annex are in the EBMUD Regional PSL program. Berkeley runs its own separate program.
 
 [All cities](https://eastbaysewerinspection.com/cities/) · [Oakland](https://eastbaysewerinspection.com/city/oakland/) · [Alameda](https://eastbaysewerinspection.com/city/alameda/) · [Albany](https://eastbaysewerinspection.com/city/albany/) · [Emeryville](https://eastbaysewerinspection.com/city/emeryville/) · [Piedmont](https://eastbaysewerinspection.com/city/piedmont/) · [El Cerrito](https://eastbaysewerinspection.com/city/el-cerrito/) · [Berkeley (separate program)](https://eastbaysewerinspection.com/city/berkeley/)
+
+## Sources
+
+- [EBMUD PSL Program Fees](https://www.eastbaypsl.com/fees.html)
+- [Inspection Fee Guidelines](https://www.eastbaypsl.com/doc/InspectionFeeGuidelines.pdf)

@@ -6,6 +6,8 @@ canonical: https://eastbaysewerinspection.com/cities/
 
 # Where the sewer lateral rule applies
 
+> Last updated 2026-10-13. Checked against the official sources listed at the end of this page.
+
 | Area | Program start |
 | --- | --- |
 | [Oakland](https://eastbaysewerinspection.com/city/oakland/) | January 16, 2012 |
@@ -18,3 +20,7 @@ canonical: https://eastbaysewerinspection.com/cities/
 | [Richmond Annex](https://eastbaysewerinspection.com/city/richmond-annex/) | October 17, 2011 (Stege Sanitary District) |
 
 [Berkeley](https://eastbaysewerinspection.com/city/berkeley/) has its own program. Source: [eastbaypsl.com](https://www.eastbaypsl.com/).
+
+## Sources
+
+- [eastbaypsl.com](https://www.eastbaypsl.com/)
