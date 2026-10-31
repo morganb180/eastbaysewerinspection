@@ -6,6 +6,8 @@ canonical: https://eastbaysewerinspection.com/contractors/
 
 # Sewer lateral contractors on EBMUD's list
 
+> Last updated 2026-10-30. Checked against the official sources listed at the end of this page.
+
 <!-- ebmud-list:start -->
 **41 contractors** from EBMUD's PSL Program Contractor List ([ContractorList.pdf](https://www.eastbaypsl.com/doc/ContractorList.pdf), dated August 2026, retrieved 2026-10-30). EBMUD publishes this as a *courtesy list*: contractors volunteered to be on it and self-certified the services they provide. It is not an exclusive list and EBMUD does not endorse anyone. EBMUD also keeps a separate list of contractors who are currently **ineligible** to do PSL inspections; check eligibility with EBMUD before you hire. We checked every license number against CSLB's License Master file (data as of 2026-10-28) and list the 41 with an active (CLEAR) license; 2 whose license showed a suspension are left off. Contractors: [claim or correct your listing](https://eastbaysewerinspection.com/list-your-business/).
 
@@ -207,3 +209,8 @@ Check their California contractor licence with the CSLB, ask whether they set up
 Oakland, Alameda, Albany, Emeryville, Piedmont, El Cerrito, Kensington and Richmond Annex are in the EBMUD Regional PSL program. Berkeley runs its own separate program.
 
 [All cities](https://eastbaysewerinspection.com/cities/) · [Oakland](https://eastbaysewerinspection.com/city/oakland/) · [Alameda](https://eastbaysewerinspection.com/city/alameda/) · [Albany](https://eastbaysewerinspection.com/city/albany/) · [Emeryville](https://eastbaysewerinspection.com/city/emeryville/) · [Piedmont](https://eastbaysewerinspection.com/city/piedmont/) · [El Cerrito](https://eastbaysewerinspection.com/city/el-cerrito/) · [Berkeley (separate program)](https://eastbaysewerinspection.com/city/berkeley/)
+
+## Sources
+
+- [ContractorList.pdf](https://www.eastbaypsl.com/doc/ContractorList.pdf)
+- [CSLB License Master](https://www.cslb.ca.gov/onlineservices/dataportal/ContractorList)

@@ -6,6 +6,8 @@ canonical: https://eastbaysewerinspection.com/ebmud-psl-program/
 
 # The EBMUD Regional Private Sewer Lateral program, explained
 
+> Last updated 2026-10-13. Checked against the official sources listed at the end of this page.
+
 In 2009 the U.S. EPA and the Regional Water Quality Control Board ordered EBMUD, six East Bay cities and one sewer district to fix leaky sewer pipes. The Regional PSL Ordinance phased in starting in 2011 ([eastbaypsl.com](https://www.eastbaypsl.com/)). It requires property owners to get an EBMUD certificate showing their private sewer laterals don't leak.
 
 * **Trigger:** a Compliance Certificate is **required to close escrow** when buying or selling, and also for building or remodeling over $100,000 (at final permit sign-off) or changing water meter size ([EBMUD](https://www.ebmud.com/wastewater/private-sewer-laterals)).
@@ -47,3 +49,8 @@ Buy a Time Extension Certificate. It allows 180 days and requires a $4,500 refun
 ## Which East Bay cities require a sewer lateral certificate?
 
 [All cities](https://eastbaysewerinspection.com/cities/) · [Oakland](https://eastbaysewerinspection.com/city/oakland/) · [Alameda](https://eastbaysewerinspection.com/city/alameda/) · [Albany](https://eastbaysewerinspection.com/city/albany/) · [Emeryville](https://eastbaysewerinspection.com/city/emeryville/) · [Piedmont](https://eastbaysewerinspection.com/city/piedmont/) · [El Cerrito](https://eastbaysewerinspection.com/city/el-cerrito/) · [Berkeley (separate program)](https://eastbaysewerinspection.com/city/berkeley/)
+
+## Sources
+
+- [eastbaypsl.com](https://www.eastbaypsl.com/)
+- [EBMUD](https://www.ebmud.com/wastewater/private-sewer-laterals)

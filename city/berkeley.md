@@ -36,6 +36,24 @@ Oakland, Alameda, Albany, Emeryville, Piedmont, El Cerrito, Kensington and Richm
 
 [Oakland](https://eastbaysewerinspection.com/city/oakland/) · [Alameda](https://eastbaysewerinspection.com/city/alameda/) · [Albany](https://eastbaysewerinspection.com/city/albany/) · [Emeryville](https://eastbaysewerinspection.com/city/emeryville/) · [Piedmont](https://eastbaysewerinspection.com/city/piedmont/) · [El Cerrito](https://eastbaysewerinspection.com/city/el-cerrito/)
 
+## Getting the certificate in Berkeley
+
+1. Read the City of Berkeley's sewer lateral program page linked above and confirm the current requirements with the city.
+2. Call two or three of the contractors above and ask whether they handle Berkeley's city certificate.
+3. Give the Certificate of Compliance to escrow before transfer of title.
+
+[Find a contractor](https://eastbaysewerinspection.com/contractors/)
+
+## Frequently asked questions
+
+**Do I need a sewer lateral certificate to sell a home in Berkeley?**
+
+Berkeley is not in the EBMUD regional program. It runs its own, and a Sewer Lateral Certificate of Compliance is generally required before transfer of title: the lateral passes a city-witnessed verification test, or the owner shows a qualifying replacement under city permit. ([City of Berkeley PSL](https://berkeleyca.gov/city-services/streets-sidewalks-sewers-and-utilities/private-sewer-lateral); [BMC 17.24.080](https://berkeley.municipal.codes/BMC/17.24.080))
+
+**Which contractors on EBMUD's list are based in Berkeley?**
+
+2 of the 41 contractors we list from EBMUD's PSL contractor list (August 2026) have a business address in Berkeley. Berkeley runs its own program, so ask whether they handle Berkeley's city certificate. EBMUD doesn't publish service areas, so contractors based elsewhere may also work here: [see all 41](https://eastbaysewerinspection.com/contractors/). Source: [EBMUD PSL Program Contractor List](https://www.eastbaypsl.com/doc/ContractorList.pdf).
+
 ## Guides
 
 [How the EBMUD program works](https://eastbaysewerinspection.com/ebmud-psl-program/) · [Costs](https://eastbaysewerinspection.com/sewer-lateral-cost/) · [Finding a contractor](https://eastbaysewerinspection.com/contractors/)
