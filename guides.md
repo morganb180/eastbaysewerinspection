@@ -12,6 +12,8 @@ Guides to the EBMUD Regional Private Sewer Lateral program and Berkeley's city p
 - [Sewer lateral certificate fees and costs](https://eastbaysewerinspection.com/sewer-lateral-cost/): EBMUD sewer lateral certificate fees ($407 Compliance Certificate as of July 2026) and what drives contractor repair and replacement costs.
 - [Where the sewer lateral rule applies](https://eastbaysewerinspection.com/cities/): Cities and areas covered by the EBMUD Regional Private Sewer Lateral ordinance, with start dates, plus Berkeley's separate program.
 - [Contractors on EBMUD's list](https://eastbaysewerinspection.com/contractors/): 41 contractors from EBMUD's PSL courtesy list, with services, phone, email and active CSLB licenses, plus how to vet a sewer lateral contractor.
+- [Sewer lateral inspection](https://eastbaysewerinspection.com/sewer-lateral-inspection/): The contractor camera check, the EBMUD-witnessed verification test, fees and how long certificates last.
+- [Sewer lateral replacement cost](https://eastbaysewerinspection.com/sewer-lateral-replacement-cost/): What is published about replacement costs, the factors EBMUD says drive a bid, and help paying.
 
 ## City guides
 
