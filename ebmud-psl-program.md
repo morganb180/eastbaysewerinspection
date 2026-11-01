@@ -6,7 +6,7 @@ canonical: https://eastbaysewerinspection.com/ebmud-psl-program/
 
 # The EBMUD Regional Private Sewer Lateral program, explained
 
-> Last updated 2026-10-13. Checked against the official sources listed at the end of this page.
+> Last updated 2026-11-01. Checked against the official sources listed at the end of this page.
 
 Reviewed by East Bay Sewer Inspection staff
 
@@ -28,7 +28,7 @@ Check the property's status with EBMUD, have a licensed contractor inspect and r
 3. Schedule the EBMUD-witnessed verification test (usually your contractor does this).
 4. Pass, then download the Compliance Certificate.
 
-EBMUD is moving PSL scheduling and certificates to a new platform (Accela), with launch expected in 2026.
+EBMUD is moving PSL scheduling, payments and certification to a new software platform (Accela), and anticipates launching in early 2027 ([EBMUD](https://www.ebmud.com/wastewater/private-sewer-laterals)).
 
 ## Frequently asked questions
 
