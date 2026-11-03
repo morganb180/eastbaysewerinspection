@@ -52,6 +52,15 @@ Buy a Time Extension Certificate. It allows 180 days and requires a $4,500 refun
 
 [All cities](https://eastbaysewerinspection.com/cities/) · [Oakland](https://eastbaysewerinspection.com/city/oakland/) · [Alameda](https://eastbaysewerinspection.com/city/alameda/) · [Albany](https://eastbaysewerinspection.com/city/albany/) · [Emeryville](https://eastbaysewerinspection.com/city/emeryville/) · [Piedmont](https://eastbaysewerinspection.com/city/piedmont/) · [El Cerrito](https://eastbaysewerinspection.com/city/el-cerrito/) · [Berkeley (separate program)](https://eastbaysewerinspection.com/city/berkeley/)
 
+## More guides for owners and buyers
+
+* [Who is responsible for the sewer lateral in each East Bay city?](https://eastbaysewerinspection.com/sewer-lateral-responsibility/)
+* [EBMUD Time Extension Certificate: closing before the sewer lateral is fixed](https://eastbaysewerinspection.com/time-extension-certificate/)
+* [When is a sewer lateral certificate not required? EBMUD exemptions](https://eastbaysewerinspection.com/sewer-lateral-exemptions/)
+* [Selling or buying a condo or townhome: sewer lateral rules](https://eastbaysewerinspection.com/condo-hoa-sewer-lateral/)
+* [How to check if a home already has a sewer lateral certificate](https://eastbaysewerinspection.com/check-sewer-lateral-certificate/)
+* [Remodeling over $100,000: when you need a sewer lateral certificate](https://eastbaysewerinspection.com/remodeling-sewer-lateral-certificate/)
+
 ## Sources
 
 - [eastbaypsl.com](https://www.eastbaypsl.com/)

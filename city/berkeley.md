@@ -13,7 +13,15 @@ Berkeley is **not** in the EBMUD regional program. It runs its own ([City of Ber
 * A Sewer Lateral Certificate of Compliance is generally required before transfer of title. The lateral passes a city-witnessed verification test, or the owner shows a qualifying replacement under city permit.
 * Time extensions with a deposit and certain exempt transfers exist.
 
-Details summarized from city documents found 2026-10-12. Spot-check before launch.
+## Berkeley sewer lateral rules at a glance
+
+* **When you need a certificate:** before close of escrow when selling or transferring, before a building permit for major construction such as a remodel, when the City finds the lateral may be a public nuisance, and when you choose to repair or replace it. This applies to all buildings, including condominiums and developments with shared laterals ([City of Berkeley](https://berkeleyca.gov/city-services/streets-sidewalks-sewers-and-utilities/private-sewer-lateral)).
+* **How:** a contractor applies for a PSL permit, inspects the lateral, makes any fixes and schedules a verification test with a City inspector. The owner may instead replace the entire lateral without prior testing ([City of Berkeley](https://berkeleyca.gov/city-services/streets-sidewalks-sewers-and-utilities/private-sewer-lateral); [BMC 17.24.080](https://berkeley.municipal.codes/BMC/17.24.080)).
+* **Extensions at sale:** the City may grant six months, either with a $4,500 deposit or with a signed contract with a licensed plumbing contractor, plus a signed Agreement for Time Extension. If the work isn't done in six months, the deposit is forfeited and the City can do the work, billing extra costs to the owner or placing a lien ([City of Berkeley](https://berkeleyca.gov/city-services/streets-sidewalks-sewers-and-utilities/private-sewer-lateral)). [Compare with EBMUD's extension](https://eastbaysewerinspection.com/time-extension-certificate/).
+* **Seller and buyer:** both are responsible. The seller must disclose the requirements and the property's compliance status, and the buyer is responsible after transfer ([BMC 17.24.080](https://berkeley.municipal.codes/BMC/17.24.080)).
+* **Remodels:** if testing or repair isn't possible before construction, you can ask for a deferral. The building permit then isn't finalized until the certificate is obtained ([City of Berkeley](https://berkeleyca.gov/city-services/streets-sidewalks-sewers-and-utilities/private-sewer-lateral)).
+* **Loans:** interest-free repair loans for eligible low-income owners apply only when the City has found the lateral to be a public nuisance, not for sales or major renovations. Contact PSLProgram@berkeleyca.gov or (510) 981-6423 ([City of Berkeley](https://berkeleyca.gov/city-services/streets-sidewalks-sewers-and-utilities/private-sewer-lateral)).
+Checked 2026-11-03 against the City of Berkeley PSL page and Berkeley Municipal Code 17.24.080.
 
 <!-- ebmud-list:start -->
 ## Which contractors on EBMUD's list are based in Berkeley?

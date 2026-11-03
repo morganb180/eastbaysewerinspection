@@ -19,7 +19,13 @@ Oakland is covered by the EBMUD Regional PSL Ordinance. It applies to escrows op
 * **HOAs/condos** had to certify laterals they maintain by July 12, 2021. Buyers should ask the HOA for its Statement of Responsibility.
 * **Appeals** within 30 calendar days.
 
-Local permits: Oakland may require its own sewer or plumbing permit for lateral repair or replacement. Check with the city.
+## Oakland sewer lateral rules at a glance
+
+* **Applies to:** escrows, remodeling permits over $100,000 and water service applications opened on or after January 16, 2012 ([EBMUD FAQ](https://www.eastbaypsl.com/faq.html)).
+* **What you certify:** Upper and lower lateral: the owner is responsible for the whole private lateral, from the house to the public sewer main ([EBMUD FAQ](https://www.eastbaypsl.com/faq.html)). [Compare cities](https://eastbaysewerinspection.com/sewer-lateral-responsibility/).
+* **Upkeep is required anyway:** Oakland Municipal Code 13.08.120 requires owners to maintain their laterals, sale or no sale ([EBMUD](https://www.eastbaypsl.com/whyfix.html)).
+* **Permits:** cities require building or sewer permits before any lateral work starts. Permit contact: City of Oakland, (510) 238-3891 ([EBMUD contacts](https://www.eastbaypsl.com/contacts.html)).
+* **Not selling?** See [exempt transfers (inheritance, trusts, divorce)](https://eastbaysewerinspection.com/sewer-lateral-exemptions/), [remodels over $100,000](https://eastbaysewerinspection.com/remodeling-sewer-lateral-certificate/), [condos and HOAs](https://eastbaysewerinspection.com/condo-hoa-sewer-lateral/) and [checking an existing certificate](https://eastbaysewerinspection.com/check-sewer-lateral-certificate/).
 
 [Full program guide →](https://eastbaysewerinspection.com/ebmud-psl-program/) · [Cost estimates](https://eastbaysewerinspection.com/sewer-lateral-cost/) · [Finding a contractor](https://eastbaysewerinspection.com/contractors/)
 

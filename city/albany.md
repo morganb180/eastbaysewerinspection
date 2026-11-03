@@ -19,7 +19,14 @@ Albany is covered by the EBMUD Regional PSL Ordinance. It applies to escrows ope
 * **HOAs/condos** had to certify laterals they maintain by July 12, 2021. Buyers should ask the HOA for its Statement of Responsibility.
 * **Appeals** within 30 calendar days.
 
-Local permits: Albany may require its own sewer or plumbing permit for lateral repair or replacement. Check with the city.
+## Albany sewer lateral rules at a glance
+
+* **Applies to:** escrows, remodeling permits over $100,000 and water service applications opened on or after January 1, 2015 ([EBMUD FAQ](https://www.eastbaypsl.com/faq.html)).
+* **What you certify:** Upper lateral only: the owner's responsibility for the EBMUD certificate ends at the property line or curbside cleanout ([EBMUD FAQ](https://www.eastbaypsl.com/faq.html)). [Compare cities](https://eastbaysewerinspection.com/sewer-lateral-responsibility/).
+* **Upkeep is required anyway:** Albany Municipal Code Ch. 15, §15-1.22 requires owners to maintain their laterals, sale or no sale ([EBMUD](https://www.eastbaypsl.com/whyfix.html)).
+* **Permits:** cities require building or sewer permits before any lateral work starts. Permit contact: City of Albany, (510) 528-5760 ([EBMUD contacts](https://www.eastbaypsl.com/contacts.html)).
+* Earlier city certificate: if the parcel has a valid, unexpired compliance certificate (or equivalent) from the City of Albany, it may qualify for an EBMUD Exemption Certificate that expires on the same date ([EBMUD](https://www.eastbaypsl.com/exemption.html)).
+* **Not selling?** See [exempt transfers (inheritance, trusts, divorce)](https://eastbaysewerinspection.com/sewer-lateral-exemptions/), [remodels over $100,000](https://eastbaysewerinspection.com/remodeling-sewer-lateral-certificate/), [condos and HOAs](https://eastbaysewerinspection.com/condo-hoa-sewer-lateral/) and [checking an existing certificate](https://eastbaysewerinspection.com/check-sewer-lateral-certificate/).
 
 [Full program guide →](https://eastbaysewerinspection.com/ebmud-psl-program/) · [Cost estimates](https://eastbaysewerinspection.com/sewer-lateral-cost/) · [Finding a contractor](https://eastbaysewerinspection.com/contractors/)
 
