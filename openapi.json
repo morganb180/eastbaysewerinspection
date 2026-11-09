@@ -4,7 +4,7 @@
     "title": "East Bay Sewer Inspection directory API",
     "version": "1.0.0",
     "summary": "Read-only search of sewer lateral contractors on EBMUD's PSL contractor list.",
-    "description": "Public listing data from East Bay Sewer Inspection (https://eastbaysewerinspection.com). Built only from what the site already publishes; no phone numbers, emails or street addresses (see each firm_url). A listing is not an endorsement.",
+    "description": "Public listing data from East Bay Sewer Inspection (https://eastbaysewerinspection.com). Built only from what the site already publishes. Phone, email and website are withheld. Listing pages show name, mailing address, services and CSLB license. A listing is not an endorsement.",
     "contact": {
       "name": "East Bay Sewer Inspection",
       "url": "https://eastbaysewerinspection.com/"
@@ -426,7 +426,7 @@
               "null"
             ],
             "format": "uri",
-            "description": "Public listing page (has phone/contact details where published)."
+            "description": "Public listing page (name, mailing address, services and CSLB license; phone, email and website are withheld)."
           },
           "quote_url": {
             "type": [

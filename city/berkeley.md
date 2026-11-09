@@ -28,10 +28,10 @@ Checked 2026-11-03 against the City of Berkeley PSL page and Berkeley Municipal 
 
 2 of the 41 contractors we list from EBMUD's PSL contractor list (August 2026) have a business address in Berkeley. Berkeley runs its own program, so ask whether they handle Berkeley's city certificate. EBMUD doesn't publish service areas, so contractors based elsewhere may also work here: [see all 41](https://eastbaysewerinspection.com/contractors/).
 
-* **Bay Plumbing**: 2344 9th St, Apt E, Berkeley, CA 94710 · [(510) 860-2147](tel:5108602147) · [bayplumbing510@gmail.com](mailto:bayplumbing510@gmail.com)
+* **Bay Plumbing**: 2344 9th St, Apt E, Berkeley, CA 94710
   * Services (self-certified to EBMUD): Residential PSL testing, Private main testing, Private manhole testing
   * CSLB license #1020974, Active (CLEAR), expires 2028-11-30
-* **L.J. Kruse Company**: 920 Pardee St, Berkeley, CA 94710 · [(510) 644-0260](tel:5106440260) · [service@ljkruse.com](mailto:service@ljkruse.com)
+* **L.J. Kruse Company**: 920 Pardee St, Berkeley, CA 94710
   * Services (self-certified to EBMUD): Residential PSL testing, Private main testing, Private manhole testing, Commercial PSL testing, PSL maps for HOAs / multi-lateral, CAP/CAWP (over 1,000 ft of PSL)
   * CSLB license #405523, Active (CLEAR), expires 2027-05-31
 
@@ -53,7 +53,7 @@ Oakland, Alameda, Albany, Emeryville, Piedmont, El Cerrito, Kensington and Richm
 [Find a contractor](https://eastbaysewerinspection.com/contractors/)
 
 
-Get free quotes: https://eastbaysewerinspection.com/quotes/ sends one request to up to 3 sewer lateral contractors on EBMUD's PSL contractor list (active CSLB licence) near you. Free, no obligation.
+Get free quotes: https://eastbaysewerinspection.com/quotes/ connects you with up to 3 nearby licensed contractors on EBMUD's PSL contractor list (active CSLB licence). They contact you directly. Free, no obligation.
 
 ## Frequently asked questions
 

@@ -49,7 +49,7 @@ EBMUD publishes this as a *courtesy list*: contractors volunteered to be on it a
 [Find a contractor](https://eastbaysewerinspection.com/contractors/)
 
 
-Get free quotes: https://eastbaysewerinspection.com/quotes/ sends one request to up to 3 sewer lateral contractors on EBMUD's PSL contractor list (active CSLB licence) near you. Free, no obligation.
+Get free quotes: https://eastbaysewerinspection.com/quotes/ connects you with up to 3 nearby licensed contractors on EBMUD's PSL contractor list (active CSLB licence). They contact you directly. Free, no obligation.
 
 ## Frequently asked questions
 
