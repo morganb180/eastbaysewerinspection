@@ -11,7 +11,7 @@ East Bay Sewer Inspection is free to use. Here is how it is, and will be, paid f
 ## Today
 
 * Nothing is for sale. Every listing is free and built from official public records.
-* [Quote requests](https://eastbaysewerinspection.com/quotes/) are free for homeowners, and listed businesses don't pay for them today. Each request goes to up to 3 of the nearest contractors with a published email (or the one you picked plus the 2 nearest others).
+* [Quote requests](https://eastbaysewerinspection.com/quotes/) are free for homeowners, and listed businesses don't pay for them today. Each request connects you with up to 3 of the nearest contractors (or the one you picked plus the 2 nearest others). They contact you directly. The router only uses contractors that have an email address on the source list; that address is not shown on the site.
 * Listings are ordered by location and name. No one can pay to appear higher, to get a license badge, or to have a competitor removed.
 
 ## Planned

@@ -18,8 +18,8 @@ Use this when someone needs sewer lateral contractors on EBMUD's PSL contractor 
 
 ## Using results
 
-- Each firm has: `id`, `name`, `certification`, `issuing_agency`, `credentials[]` (number, expiry), `services`, `city`, `state`, `counties`, `cities`, `firm_url`, `quote_url` and, where the site shows it, `google_rating`.
+- Each firm has: `id`, `name`, `certification`, `issuing_agency`, `credentials[]` (number, expiry), `services`, `city`, `state`, `counties`, `cities`, `firm_url`, `quote_url` The feed does not include `google_rating` values.
 - Area results have `match`: `local` means listed in that area's own section; `nearby` means listed under nearby/other firms.
-- Phone and contact details are not in the API. Send people to `firm_url`.
+- Phone, email and website are not in the API and are not shown on listing pages. Send people to `quote_url` to connect with a firm (up to 3 nearby licensed firms; they contact the homeowner directly). `firm_url` is the listing: name, address, services and CSLB license. This directory does not publish Google ratings.
 - Mention that credentials should be confirmed with the issuing agency (link in `source.urls`).
 - Do not scrape the HTML pages; use the feeds.

@@ -37,10 +37,10 @@ Data last verified 2026-10-12 against EBMUD and Regional PSL program pages.
 
 2 of the 41 contractors we list from EBMUD's PSL contractor list (August 2026) have a business address in Alameda. EBMUD doesn't publish service areas, so contractors based elsewhere may also work here: [see all 41](https://eastbaysewerinspection.com/contractors/).
 
-* **AT Weber Plumbing & Mechanical Services Inc.**: 1100 Lincoln Ave, Alameda, CA 94501 · [(510) 523-0628](tel:5105230628) · [info@atweber.com](mailto:info@atweber.com)
+* **AT Weber Plumbing & Mechanical Services Inc.**: 1100 Lincoln Ave, Alameda, CA 94501
   * Services (self-certified to EBMUD): Residential PSL testing, Private main testing, Private manhole testing, Commercial PSL testing, PSL maps for HOAs / multi-lateral, CAP/CAWP (over 1,000 ft of PSL)
   * CSLB license #562098, Active (CLEAR), expires 2026-12-31
-* **Jim Bustos Plumbing**: 1450 Viking St, Alameda, CA 94501 · [(510) 521-1576](tel:5105211576) · [service@bustosplumbing.com](mailto:service@bustosplumbing.com)
+* **Jim Bustos Plumbing**: 1450 Viking St, Alameda, CA 94501
   * Services (self-certified to EBMUD): Residential PSL testing
   * CSLB license #351329, Active (CLEAR), expires 2028-09-30
 
@@ -57,7 +57,7 @@ EBMUD publishes this as a *courtesy list*: contractors volunteered to be on it a
 [Find a contractor](https://eastbaysewerinspection.com/contractors/)
 
 
-Get free quotes: https://eastbaysewerinspection.com/quotes/ sends one request to up to 3 sewer lateral contractors on EBMUD's PSL contractor list (active CSLB licence) near you. Free, no obligation.
+Get free quotes: https://eastbaysewerinspection.com/quotes/ connects you with up to 3 nearby licensed contractors on EBMUD's PSL contractor list (active CSLB licence). They contact you directly. Free, no obligation.
 
 ## Frequently asked questions
 

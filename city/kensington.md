@@ -36,7 +36,7 @@ Data last verified 2026-10-12 against EBMUD and Regional PSL program pages.
 
 1 of the 41 contractors we list from EBMUD's PSL contractor list (August 2026) has a business address in Kensington. EBMUD doesn't publish service areas, so contractors based elsewhere may also work here: [see all 41](https://eastbaysewerinspection.com/contractors/).
 
-* **Green Eagle Plumbing**: 47 Anson Way, Kensington, CA 94707 · [(510) 928-0759](tel:5109280759) · [anampaldgyee79@gmail.com](mailto:anampaldgyee79@gmail.com)
+* **Green Eagle Plumbing**: 47 Anson Way, Kensington, CA 94707
   * Services (self-certified to EBMUD): Residential PSL testing, Private main testing, Private manhole testing, Commercial PSL testing, PSL maps for HOAs / multi-lateral, CAP/CAWP (over 1,000 ft of PSL)
   * CSLB license #987565, Active (CLEAR), expires 2027-10-31
 
@@ -53,7 +53,7 @@ EBMUD publishes this as a *courtesy list*: contractors volunteered to be on it a
 [Find a contractor](https://eastbaysewerinspection.com/contractors/)
 
 
-Get free quotes: https://eastbaysewerinspection.com/quotes/ sends one request to up to 3 sewer lateral contractors on EBMUD's PSL contractor list (active CSLB licence) near you. Free, no obligation.
+Get free quotes: https://eastbaysewerinspection.com/quotes/ connects you with up to 3 nearby licensed contractors on EBMUD's PSL contractor list (active CSLB licence). They contact you directly. Free, no obligation.
 
 ## Frequently asked questions
 

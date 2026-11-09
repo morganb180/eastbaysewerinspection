@@ -17,7 +17,7 @@ Contractor listings come from EBMUD's PSL Program Contractor List (a courtesy li
 ## What we don't verify
 
 * Workmanship, prices, insurance or availability.
-* Phone numbers and websites added later by a provider, until the claim process checks them against the official record.
+* Listings do not show a phone number, email or website. A contractor can ask us to correct the record; we check that request against the official credential before anything changes.
 
 ## Corrections
 

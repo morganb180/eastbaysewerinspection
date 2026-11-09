@@ -56,7 +56,7 @@
       "label": "CAP/CAWP (over 1,000 ft of PSL)"
     }
   ],
-  "fields_excluded": "Phone, email and street address are not included; see each firm_url.",
+  "fields_excluded": "Phone, email and website are withheld from this feed and from public listing pages. Listing pages show name, mailing address, services and CSLB license. quote_url connects a homeowner with up to 3 nearby licensed firms. The lead router keeps its own contact copy; do not add phone or email to public files. No Google rating values are published.",
   "endpoints": {
     "firms": "https://eastbaysewerinspection.com/api/firms.json",
     "county": null,
