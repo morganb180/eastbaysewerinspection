@@ -9,6 +9,9 @@ var HOSTS=["eastbaysewerinspection.com","www.eastbaysewerinspection.com"];
 var n=w.navigator||{};
 if(!/^G-[A-Z0-9]{4,}$/.test(GA_ID)||HOSTS.indexOf(location.hostname)<0)return;
 if(n.globalPrivacyControl===true||n.doNotTrack=="1"||n.doNotTrack=="yes"||w.doNotTrack=="1"||n.msDoNotTrack=="1")return;
+/* Internal traffic: visit any page with ?qa=1 once to mark this browser (cookie rr_qa, 1 year); ?qa=0 clears it.
+   Marked hits carry traffic_type=internal (GA4 internal-traffic filter) and internal_user=1 (custom dimension for the readout). */
+var QA=false;try{var qm=/[?&]qa=([01])(?:&|#|$)/.exec(location.search);if(qm)d.cookie="rr_qa="+(qm[1]=="1"?"1; Max-Age=31536000":"; Max-Age=0")+"; Path=/; SameSite=Lax; Secure";QA=/(?:^|;\s*)rr_qa=1(?:;|$)/.test(d.cookie)}catch(e){}
 
 var KEEP=/^(firm|id|county|city|type|q|sent|utm_(source|medium|campaign|term|content))$/;
 var EMAIL=/[^\s@]+@[^\s@]+\.[^\s@]+/,PHONE=/\d[\d\s().+-]{6,}\d/;
@@ -27,9 +30,9 @@ function q(s,r){return(r||d).querySelector(s)}function qa(s,r){return Array.prot
 function ptype(){var p=location.pathname;if(p=="/")return"home";if(/^\/quotes\//.test(p))return q(LEADF)?"quote_form":"search";if(q(".fp-cta,.fp-contact"))return"firm";if(/\/guide\/$/.test(p))return"city_guide";var a=area();if(a&&q(CARD))return"listing";if(q(CARD))return"listing";return"content"}
 function area(){var p=location.pathname.split("/").filter(Boolean),i;for(i=0;i<p.length-1;i++)if(/^(county|city|town)$/.test(p[i]))return{area:p[i+1],area_type:p[i],state:i>0&&/^[a-z]{2}$/.test(p[i-1])?p[i-1]:void 0};return null}
 var A=area()||{};
-gtag("config",GA_ID,{allow_google_signals:false,allow_ad_personalization_signals:false,page_location:clean(location.href),page_referrer:d.referrer?clean(d.referrer):void 0,page_type:page,site:SITE});
+gtag("config",GA_ID,{traffic_type:QA?"internal":void 0,internal_user:QA?"1":void 0,allow_google_signals:false,allow_ad_personalization_signals:false,page_location:clean(location.href),page_referrer:d.referrer?clean(d.referrer):void 0,page_type:page,site:SITE});
 var s=d.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id="+GA_ID;(d.head||d.documentElement).appendChild(s);
-function track(e,p){p=p||{};p.site=SITE;p.page_type=page;gtag("event",e,safe(p))}
+function track(e,p){p=p||{};if(QA){p.traffic_type="internal";p.internal_user="1"}p.site=SITE;p.page_type=page;gtag("event",e,safe(p))}
 
 /* ---------- helpers ---------- */
 function cardOf(el){return el&&el.closest?el.closest(CARD):null}
@@ -37,7 +40,7 @@ function pos(c){var i=qa(CARD).indexOf(c);return i<0?void 0:i+1}
 function firmPageId(){var a=q(".fp-cta [data-fid],.fp-contact [data-fid],[data-fid]");if(a&&q(".fp-cta,.fp-contact"))return a.getAttribute("data-fid");var g=q('.fp-cta a[href*="firm="]');if(g){var m=/[?&]firm=([A-Za-z0-9]+)/.exec(g.getAttribute("href"));if(m)return m[1]}var s=/-([a-z]{1,3}\d{2,6})\/?$/i.exec(location.pathname);return s?s[1].toUpperCase():void 0}
 var FP=page=="firm"?firmPageId():void 0;
 function fidOf(a){return a.getAttribute("data-fid")||(cardOf(a)||{}).id||FP}
-function where(a){if(a.closest(".lf-done"))return"lead_success";if(a.closest("details.menu"))return"mobile_nav";if(a.closest("header"))return"header";if(cardOf(a))return"firm_card";if(a.closest(".fp-cta"))return"firm_page_cta";if(a.closest(".fp-contact"))return"firm_page_contact";if(a.closest("footer"))return"footer";if(a.closest("#results"))return"search_results";return"content"}
+function where(a){var gl=a.getAttribute&&a.getAttribute("data-ga-loc");if(gl&&/^[a-z_]{3,30}$/.test(gl))return gl;if(a.closest(".lf-done"))return"lead_success";if(a.closest("details.menu"))return"mobile_nav";if(a.closest("header"))return"header";if(cardOf(a))return"firm_card";if(a.closest(".fp-cta"))return"firm_page_cta";if(a.closest(".fp-contact"))return"firm_page_contact";if(a.closest("footer"))return"footer";if(a.closest("#results"))return"search_results";return"content"}
 function txt(a){return String(a.textContent||"").replace(/\s+/g," ").trim().slice(0,40)}
 function isDomain(t){return/^(www\.)?[a-z0-9-]+(\.[a-z0-9-]+)+(\/\S*)?$/i.test(t)}
 
@@ -75,7 +78,10 @@ function fctx(f){return{form_id:fid(f),form_type:fkind(f),service:fval(f,"need")
 var ENUM=/^(need|county|type|intent)$/,fstate=[];
 function st(f){for(var i=0;i<fstate.length;i++)if(fstate[i].f===f)return fstate[i];var o={f:f,started:0,done:{},inv:{}};fstate.push(o);return o}
 function formOf(el){var f=el&&el.closest?el.closest("form"):null;return f&&fkind(f)?f:null}
-d.addEventListener("focusin",function(e){var f=formOf(e.target);if(!f)return;var s=st(f);if(s.started)return;s.started=1;track("form_start",fctx(f))},true);
+function isField(x){return!!(x&&x.matches&&x.matches("input,select,textarea")&&x.type!="hidden"&&x.name!="website")}
+/* form_start: first focus on a real field, or first change (Safari does not focus radios/checkboxes on click) */
+d.addEventListener("focusin",function(e){if(!isField(e.target))return;var f=formOf(e.target);if(!f)return;var s=st(f);if(s.started)return;s.started=1;track("form_start",fctx(f))},true);
+d.addEventListener("change",function(e){if(!isField(e.target))return;var f=formOf(e.target);if(!f)return;var s=st(f);if(s.started)return;s.started=1;track("form_start",fctx(f))},true);
 d.addEventListener("change",function(e){var el=e.target,f=formOf(el);if(!f||!el.name||el.type=="hidden"||el.name=="website"||el.name=="idem")return;var filled=el.type=="checkbox"||el.type=="radio"?el.checked:String(el.value||"").trim()!=="";if(!filled)return;var s=st(f);if(s.done[el.name])return;s.done[el.name]=1;var p=fctx(f);p.field_name=el.name;if(ENUM.test(el.name))p.field_value=String(el.value).slice(0,40);track("form_field_complete",p)},true);
 d.addEventListener("invalid",function(e){var f=formOf(e.target);if(!f)return;var s=st(f),k=e.target.name||"field",t=Date.now();if(s.inv[k]&&t-s.inv[k]<3000)return;s.inv[k]=t;var p=fctx(f);p.error_type="client_validation";p.field_name=k;track("form_error",p)},true);
 d.addEventListener("submit",function(e){var f=e.target;if(!f||!f.matches||!fkind(f))return;var p=fctx(f),em=f.querySelector("[name=email]"),ph=f.querySelector("[name=phone]");p.has_email=!!(em&&em.value.trim());p.has_phone=!!(ph&&ph.value.trim());p.fields_completed=Object.keys(st(f).done).length;var tk=f.querySelector('[name="cf-turnstile-response"]');if(f.matches(LEADF))p.turnstile_ready=!!(tk&&tk.value);track("form_submit_attempt",p)},true);
@@ -86,7 +92,7 @@ d.addEventListener("lead:result",function(e){var f=e.target,x=e.detail||{},p=fct
  p.error_type=x.type||(x.duplicate?"duplicate":ERR[x.status]||"server_"+(x.status||"unknown"));if(x.status)p.http_status=x.status;if(x.fields&&x.fields.length)p.field_name=x.fields.join(",").slice(0,100);track("form_error",p)},true);
 /* Turnstile outcome: name callbacks on each widget before lead.js loads Turnstile */
 function tsHooks(){qa(LEADF).forEach(function(f,i){var t=q(".cf-turnstile",f);if(!t||t.getAttribute("data-callback"))return;var k="__gaTs"+i;
- w[k+"ok"]=function(){track("turnstile_pass",fctx(f))};w[k+"err"]=function(c){var p=fctx(f);p.reason="error";p.error_code=String(c||"").slice(0,12);track("turnstile_fail",p)};w[k+"exp"]=function(){var p=fctx(f);p.reason="expired";track("turnstile_fail",p)};w[k+"to"]=function(){var p=fctx(f);p.reason="timeout";track("turnstile_fail",p)};
+ w[k+"ok"]=function(){track("turnstile_ready",fctx(f))};w[k+"err"]=function(c){var p=fctx(f);p.reason="error";p.error_code=String(c||"").slice(0,12);track("turnstile_fail",p)};w[k+"exp"]=function(){var p=fctx(f);p.reason="expired";track("turnstile_fail",p)};w[k+"to"]=function(){var p=fctx(f);p.reason="timeout";track("turnstile_fail",p)};
  t.setAttribute("data-callback",k+"ok");t.setAttribute("data-error-callback",k+"err");t.setAttribute("data-expired-callback",k+"exp");t.setAttribute("data-timeout-callback",k+"to")})}
 
 /* ---------- page-level funnel events ---------- */

@@ -1,0 +1,34 @@
+/* Quote placement (design/quote-form-placement): sticky mobile quote bar, inline quote block after the first firm cards,
+   secondary hero quote button, and a tighter /quotes/ header on phones. Brand colour comes from trust.css (--trust-brand). */
+.qinline{grid-column:1/-1;margin:1rem 0;scroll-margin-top:72px}
+.qinline.panel{border:2px solid var(--trust-brand,#1f2937)}
+.qprompt{border:2px solid var(--trust-brand,#1f2937);border-radius:12px;padding:1rem 1.1rem;background:var(--trust-brand-tint,#f3f4f6)}
+.qprompt-h{font-weight:700;font-size:1.08rem;margin:0 0 .3rem;color:var(--ink,#111827)}
+.qprompt p{margin:0 0 .7rem}
+.qprompt-btn,.qsbar-btn,.qalt-btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 18px;border-radius:10px;
+  font-weight:700;text-decoration:none;background:var(--trust-brand,#1f2937);color:#fff;border:2px solid var(--trust-brand,#1f2937)}
+.qprompt-btn:hover,.qsbar-btn:hover{background:var(--trust-brand-ink,#111827);color:#fff}
+.qalt{margin:.7rem 0 0;display:flex;flex-wrap:wrap;gap:.4rem .8rem;align-items:center}
+.qalt-btn{background:transparent;color:var(--trust-brand-ink,#111827)}
+.qalt-btn:hover{background:var(--trust-brand-tint,#f3f4f6);color:var(--trust-brand-ink,#111827)}
+.qalt-note{font-size:.9rem;color:var(--mute,#4b5563)}
+.qprompt-btn:focus-visible,.qsbar-btn:focus-visible,.qalt-btn:focus-visible{outline:3px solid var(--ink,#111827);outline-offset:2px}
+.qsbar{display:none}
+@media (max-width:760px){
+  .qsbar{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:50;gap:.6rem;align-items:center;
+    padding:.55rem max(.75rem,env(safe-area-inset-left)) calc(.55rem + env(safe-area-inset-bottom)) max(.75rem,env(safe-area-inset-right));
+    background:#fff;border-top:1px solid var(--line,#e6e8ec);box-shadow:0 -4px 14px rgba(17,24,39,.08)}
+  .qsbar-btn{flex:0 0 auto}
+  .qsbar-note{font-size:.82rem;line-height:1.25;color:var(--ink,#111827)}
+  .qsbar.is-off{transform:translateY(110%);visibility:hidden}
+  body.has-qsbar{padding-bottom:calc(76px + env(safe-area-inset-bottom))}
+  /* /quotes/: get the first question onto the first screen */
+  .qpage{padding-top:.4rem}
+  .qpage .crumbs{display:none}
+  .qpage h1{font-size:1.4rem;line-height:1.2;margin:.25rem 0 .35rem}
+  .qpage .qwrap>form[data-lead]{order:1}
+  .qpage .qwrap>.qpanel{order:2}
+  .qpage .lede{font-size:.93rem;line-height:1.4;margin:0 0 .6rem;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+}
+@media (prefers-reduced-motion:no-preference){.qsbar{transition:transform .2s ease,visibility .2s}}
+@media print{.qsbar{display:none!important}}
